@@ -1,0 +1,129 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$intro--about__p: $color1;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+.intro {
+	margin-bottom: 0;
+	margin-top: 0;
+
+	@include lg {
+		margin-top: 1.5rem;
+	}
+
+	@include xl {
+		margin-top: 0;
+	}
+
+	@include xxl {
+		background-image: url('../img/intro-bg-1.png'), url('../img/intro-bg-2.png');
+		background-repeat: no-repeat;
+		background-position: left 40%, right 85%;
+	}
+
+	@include xxxl {
+		margin-top: 3rem;
+	}
+
+	&__header {
+		padding: {
+			top: 6rem;
+			bottom: 1.2rem;
+		}
+	}
+
+	&__img {
+		margin-top: 4rem;
+		
+		@include md {
+			margin-top: 0;
+		}
+
+		@include lg {
+			margin-top: -4rem;
+		}
+
+		@include xxl {
+			position: relative;
+			z-index: -1;
+		}
+
+		@include xxxl {
+			margin-top: -9rem;
+			margin-right: 110px;
+		}
+	}
+
+	&__content {
+
+		@include md {
+			max-width: 580px;
+		}
+	}
+
+	&__ul {
+		list-style-type: none;
+	}
+
+	li {
+		font: {
+			size: 1.125rem;
+		}
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 0.63rem;
+
+		&::before {
+			content: url('../img/li.png');
+			display: inline-flex;
+			align-self: flex-start;
+			width: 1.75rem;
+			height: 1.75rem;
+			margin-top: 0;
+			margin-right: 1.1rem;
+		}
+	}
+
+	&--about {
+		@include background-cover('../img/intro-about-bg.svg');
+		background-position: center bottom;
+		padding: 3.8rem 0 10.7rem 0;
+
+		@include IE {
+			background-image: none;
+			background-color: #F2F8FB;
+			padding-bottom: 5rem;
+			margin-bottom: 5.7rem;
+		}
+
+		.intro__header {
+			padding-top: 2rem;
+
+			@include md {
+				padding-top: 4rem;
+			}
+
+			@include lg {
+				padding-top: 6rem;
+			}
+		}
+
+		.intro__img {
+			z-index: 1;
+
+			@include xl {
+				margin-right: 70px;
+			}
+		}
+
+		p {
+			margin-bottom: 1.5rem;
+			color: $intro--about__p;
+		}
+	}
+}

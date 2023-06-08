@@ -1,0 +1,402 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$pricing-table__shadow: rgba(3, 77, 111, 0.13);
+$pricing-table__shadow--recommended: rgba(3, 77, 111, 0.2);
+$pricing__bgc: $color3;
+$pricing__label: $text--light;
+$pricing__slider__bgc: $white;
+$pricing__slider__before__bgc: $color6;
+
+$pricing-table__bgc: $white;
+$pricing-table__item__border: $color9;
+$pricing-table__item--disabled: $color11;
+$pricing-table__amount: $color5;
+$pricing-table__item__fa: $color3;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+.pricing {
+	background-color: $pricing__bgc;
+	background-image: url('../img/pricing-bg.png');
+	background-position: center top;
+	background-repeat: repeat;
+	background-size: contain;
+	transform: translateY(-1px);
+	padding-top: 2.2rem;
+	padding-bottom: 7.5rem;
+
+	&__shape {
+
+		@include lg {
+			margin-top: -6.5rem;
+		}
+
+		@include xxxl {
+			margin-top: -11.2rem;
+		}
+	}
+
+	&__header {
+		margin-bottom: 3.4rem
+	}
+
+	&__heading {
+		margin-bottom: 1.7rem;
+	}
+
+	&__label {
+		font: {
+			family: "Red Hat Display", sans-serif;
+			size: 18px;
+			weight: 500;
+		}
+		color: $pricing__label;
+		cursor: pointer;
+	}
+
+	&__switch {
+		position: relative;
+		display: inline-block;
+		width: 53px;
+		height: 22px;
+		margin-bottom: 0;
+		margin-left: 1.3rem;
+		margin-right: 1.3rem;
+	}
+
+	&__switch input { 
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	&__slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: $pricing__slider__bgc;
+		transition: .4s;
+		border-radius: 22px;
+
+		&::before {
+			position: absolute;
+			content: "";
+			height: 16px;
+			width: 16px;
+			left: 3px;
+			bottom: 3px;
+			background-color: $pricing__slider__before__bgc;
+			-webkit-transition: .4s;
+			transition: .4s;
+			border-radius: 50%;
+		}
+	}
+
+	input:focus + .pricing__slider {
+		box-shadow: 0 0 10px $color5;
+	}
+
+	&__slider.checked:before {
+		transform: translateX(31px);
+	}
+
+	&__monthly,
+	&__annualy {
+
+		.container-fluid {
+
+			@include md {
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+
+			@include xl {
+				max-width: 1170px;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+
+	.flex-wrap {
+
+		@include lg {
+
+			@include IE {
+				flex-wrap: nowrap !important;
+			}
+		}
+	}
+}
+
+.pricing-table {
+	background-color: $pricing-table__bgc;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	width: 100%;
+	box-shadow: 0px 17px 30px 0px $pricing-table__shadow;
+	z-index: 1;
+	margin: 2rem 0;
+	animation-duration: 1s !important;
+
+	@include md {
+		width: 33.3333%;
+		margin: 0;
+
+		@include IE {
+			width: 100%;
+			margin: 2rem 0;
+		}
+	}
+
+	@include lg {
+
+		@include IE {
+			width: 33.3333%;
+			margin: 0;
+		}
+	}
+
+	@include xl {
+		width: 32%;
+	}
+
+	&--recommended {
+		width: 100%;
+		box-shadow: 0px 17px 30px 0px $pricing-table__shadow--recommended;
+		z-index: 2;
+
+		@include md {
+			width: 33.3334%;
+			margin-top: -1.725rem;
+
+			@include IE {
+				width: 100%;
+				margin: 2rem 0;
+			}
+		}
+
+		@include lg {
+
+			@include IE {
+				width: 33.3334%;
+				margin: -1.725rem 0 0 0;
+			}
+		}
+
+		@include xl {
+			width: 36%;
+		}
+
+		.pricing-table__icon-wrapper {
+			height: 13.875rem;
+
+			@include md {
+				height: 11.875rem;
+			}
+
+			@include xl {
+				height: 13.875rem;
+			}
+		}
+
+		.pricing-table__cta {
+			padding-bottom: 3.85rem;
+		}
+	}
+
+	th {
+		padding: 0;
+	}
+
+	&__icon-wrapper {
+		@include flex-center;
+		height: 12.15rem;
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(63deg,  #ffffff 0%, #dbebf3 90%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(63deg,  #ffffff 0%,#dbebf3 90%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(63deg,  #ffffff 0%,#dbebf3 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbebf3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		margin-bottom: 2.3rem;
+
+		@include md {
+			height: 10.15rem;
+		}
+
+		@include xl {
+			height: 12.15rem;
+		}
+
+		@include IE {
+			border-top-left-radius: 0.4rem;
+			border-top-right-radius: 0.4rem;
+		}
+	}
+
+	&__icon {
+		width: 100%;
+
+		@include md {
+			width: 70%;
+		}
+
+		@include xl {
+			width: 100%;
+		}
+		
+		&--1 {	
+			max-width: 14rem;
+		}
+
+		&--2 {	
+			max-width: 14.5625rem;
+		}
+
+		&--3 {	
+			max-width: 13.3125rem;
+		}
+	}
+
+	&__heading {
+		font: {
+			family: "Red Hat Display", sans-serif;
+			size: 2rem;
+			weight: 700;
+		}
+		line-height: 1.2;
+		margin-bottom: 0.1rem;
+
+		@include md {
+			font: {
+				size: 1.8rem;
+			}
+		}
+
+		@include xl {
+			font: {
+				size: 2rem;
+			}
+		}
+	}
+
+	tbody {
+		padding: 0.8rem 1.9rem;
+		display: flex;
+		flex-wrap: wrap;
+
+		@include md {
+			padding: 0.8rem 1rem;
+		}
+
+		@include xl {
+			padding: 0.8rem 1.9rem;
+		}
+	}
+
+	tr {
+		width: 100%;
+
+		&:last-child {
+
+			.pricing-table__item {
+				border-bottom: none;
+			}
+		}
+	}
+
+	&__item {
+		font: {
+			size: 15px;
+		}
+		border-bottom: solid 1px $pricing-table__item__border;
+		width: 100%;
+		display: block;
+		text-align: left;
+		padding: 0.6rem 0;
+
+		&--disabled {
+			color: $pricing-table__item--disabled;
+		}
+
+		button {
+			background: none;
+			border: none;
+		}
+
+		.fa {
+			color: $pricing-table__item__fa;
+		}
+	}
+
+	&__v {
+		width: 1rem;
+		height: auto;
+		margin-right: 0.75rem;
+	}
+
+	&__x {
+		width: 0.75rem;
+		height: auto;
+		margin-left: 0.125rem;
+		margin-right: 0.875rem;
+	}
+
+	&__price {
+		font: {
+			family: "Red Hat Display", sans-serif;
+			size: 1.875rem;
+			weight: 500;
+		}
+
+		@include md {
+			font: {
+				size: 1.5rem;
+			}
+		}
+
+		@include xl {
+			font: {
+				size: 1.875rem;
+			}
+		}
+	}
+
+	&__amount {
+		font: {
+			size: 2.375rem;
+			weight: 700;
+		}
+		color: $pricing-table__amount;
+		margin-left: 0.3rem;
+		margin-right: 0.3rem;
+
+		@include md {
+			font: {
+				size: 2.1rem;
+			}
+		}
+
+		@include xl {
+			font: {
+				size: 2.375rem;
+			}
+		}
+	}
+
+	&__term {
+		font: {
+			size: 12px;
+		}
+	}
+
+	&__cta {
+		padding: 1.7rem 0 2.2rem 0;
+	}
+}

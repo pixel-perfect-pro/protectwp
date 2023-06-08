@@ -1,0 +1,146 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$body__bgc: $background;
+$selection__bgc: $color4;
+$selection__text: $text--light;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+html {
+	font-size: 80%;
+
+	@include md {
+		font-size: 90%;
+	}
+
+	@include xl {
+		font-size: 100%; /* 1rem = 16px */
+	}
+
+	@include retina {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: $body__bgc;
+	overflow-x: hidden;
+	min-height: 100vh;
+	position: relative;
+	padding-top: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	@include paragraph;
+	font: {
+		size: 1rem;
+	}
+	margin-bottom: 0;
+	background-image: url('../img/footer-bg.png');
+	background-size: 300%;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	max-width: 1920px;
+	margin: 0 auto;
+
+	@include md {
+		background-size: 200%;
+	}
+
+	@include lg {
+		background-size: contain;
+		background-position: center bottom;
+	}
+
+	@media (min-width: 1921px) {
+		background-size: 1920px auto;
+	}
+}
+
+::selection {
+	background-color: $selection__bgc;
+	color: $selection__text;
+}
+
+h1 {
+	@include h1;
+}
+
+h2 {
+	@include h2;
+
+	&.smaller {
+		@include h3;
+	}
+}
+
+h3 {
+	@include h3;
+}
+
+h4 {
+	@include h4;
+}
+
+h5 {
+	@include h5;
+}
+
+h6 {
+	@include h6;
+}
+
+p {
+	@include paragraph;
+
+	&.smaller {
+		font: {
+			size: 0.9em;
+		}
+	}
+}
+
+a {
+	@include link;
+}
+
+ul,
+ol {
+	list-style-position: inside;
+	padding-left: 0;
+	text-align: left;
+	margin-top: 1.8rem;
+	margin-bottom: 1.8rem;
+}
+
+
+/* Bootstrap grid width overwrite */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+.content {
+	flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+}
+
+.footer {
+	flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+}
+
+a,
+button {
+	@include transition($time: 0.15s, $easing: ease-in-out);
+	@include link;
+}
+
+figure {
+	margin: 0;
+}

@@ -1,0 +1,71 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$footer__bgc: $footer;
+$footer__link: $white;
+$footer__link--hover: $color4;
+$footer__terms: $white;
+$footer__term: $white;
+$footer__term--hover: $color4;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+.footer {
+	padding: 2.2rem 1rem;
+	background-color: $footer__bgc;
+	margin-top: -5rem;
+
+	&__ul {
+		list-style-type: none;
+	}
+
+	&__li {
+		margin: 1rem;
+	}
+
+	&__link {
+		font: {
+			family: "Open Sans", sans-serif;
+			size: 13px;
+			weight: 700;
+		}
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $footer__link;
+
+		&:active,
+		&:focus {
+			color: $footer__link;
+		}
+
+		&:hover {
+			color: $footer__link--hover;
+		}
+	}
+
+	&__terms {
+		font: {
+			weight: 400;
+			size: 12px;
+		}
+		text-transform: none;
+		color: $footer__terms;
+	}
+
+	&__term {
+		color: $footer__term;
+		text-decoration: none;
+
+		&:active,
+		&:focus {
+			color: $footer__term;
+		}
+
+		&:hover {
+			color: $footer__term--hover;
+		}
+	}
+}

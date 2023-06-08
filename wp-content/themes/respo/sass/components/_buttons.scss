@@ -1,0 +1,49 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$btn__bgc: $color5;
+$btn__bgc--hover: $color4;
+$btn__text: $text--light;
+$btn__text--hover: $text--light;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+a.btn,
+.btn,
+input.btn,
+.wp-block-button a.wp-block-button__link,
+.wp-block-file a.wp-block-file__button,
+.components-autocomplete div.wp-block-button__link,
+.components-autocomplete div.wp-block-file__button {
+	min-width: 8.75rem;
+	height: 3.4375rem;
+	background-color: $btn__bgc;
+	color: $btn__text;
+	padding: 1rem 2.25rem;
+	font: {
+		size: 13px;
+		weight: 700;
+	}
+	text: {
+		transform: uppercase;
+		align: center;
+		decoration: none;
+	}
+	border-bottom: none !important;
+	border-radius: 0.35rem;
+	margin: 0;
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	@include transition;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $btn__bgc--hover;
+		color: $btn__text--hover;
+	}
+}

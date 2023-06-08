@@ -1,0 +1,162 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+$heading--h1: $text--dark;
+$heading--h2: $text--dark;
+$heading--h3: $text--dark;
+$heading--h4: $text--dark;
+$heading--h5: $text--dark;
+$heading--h6: $text--dark;
+$paragraph: $text--dark;
+$blockquote: $text--dark;
+$blockquote__border: $text--dark;
+$link: $color1;
+$link--hover: $text--dark;
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+@mixin paragraph {
+	font: {
+		family: "Open Sans", sans-serif;
+		size: 1rem;
+		weight: 400;
+	}
+	margin-bottom: 0.9rem;
+	color: $paragraph;
+}
+
+@mixin link {
+	color: $link;
+	text-decoration: underline;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $link--hover;
+		text-decoration: none;
+	}
+}
+
+@mixin h1 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 7vw;
+		weight: 700;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h1;
+
+
+	@include md {
+		font: {
+			size: 4rem;
+		}
+	}
+
+	@include xl {
+		font: {
+			size: 5rem;
+		}
+	}
+}
+
+@mixin h2 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 3rem;
+		weight: 500;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h2;
+}
+
+@mixin h3 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 1.875rem;
+		weight: 500;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h3;
+}
+
+@mixin h4 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 1.5rem;
+		weight: 500;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h4;
+}
+
+@mixin h5 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 1rem;
+		weight: 500;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h5;
+}
+
+@mixin h6 {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 1rem;
+		weight: 300;
+	}
+	text: {
+		align: left;
+	}
+	color: $heading--h6;
+}
+
+@mixin blockquote {
+	border-left: solid 0.3rem $blockquote__border;
+	width: calc(100% - 30px);
+	padding: {
+		top: 1rem;
+		bottom: 1rem;
+		left: 1.7rem;
+	}
+	margin: {
+		top: 0;
+		bottom: 3.4em;
+	}
+	position: relative;
+
+	@include xl {
+		width: 1140px;
+	}
+}
+
+@mixin blockquote_p {
+	font: {
+		family: "Red Hat Display", sans-serif;
+		size: 1rem;
+		weight: 400;
+	}
+	text: {
+		align: left;
+	}
+	color: $blockquote;
+	line-height: 1.75;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
