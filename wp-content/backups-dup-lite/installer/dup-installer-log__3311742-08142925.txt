@@ -1,0 +1,939 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:41:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Darwin
+PHP VERSION_________: 8.1.18                                |8.1.9
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.9 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: nginx/1.16.0
+DOC ROOT____________: "/Users/czuk/Local/protectwp/protectwp/app/public"
+REQUEST URL_________: "http://protectwp.local"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/Users/czuk/Local/protectwp/protectwp/app/public"
+URL_NEW_____________: "http://protectwp.local"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/Users/czuk/Local/protectwp/protectwp/app/public/20230608_opiekatechnicznawordpresspro_[HASH]_20230608142925_archive.zip"
+ARCHIVE SIZE________: 30.95MB
+CREATED_____________: 2023-06-08 14:29:25
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 1.5.4
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.24
+DB FILE SIZE________: 5.22MB
+DB TABLES___________: 22
+DB ROWS_____________: 2225
+URL HOME____________: https://protectwp.pl
+URL CORE____________: https://protectwp.pl
+URL CONTENT_________: https://protectwp.pl/wp-content
+URL UPLOAD__________: https://protectwp.pl/wp-content/uploads
+URL PLUGINS_________: https://protectwp.pl/wp-content/plugins
+URL MU PLUGINS______: https://protectwp.pl/wp-content/mu-plugins
+URL THEMES__________: https://protectwp.pl/wp-content/themes
+PATH HOME___________: /home/respo/websites/protectwp.pl
+PATH ABS____________: /home/respo/websites/protectwp.pl
+PATH WPCONFIG_______: /home/respo/websites/protectwp.pl
+PATH WPCONTENT______: /home/respo/websites/protectwp.pl/wp-content
+PATH UPLOADS________: /home/respo/websites/protectwp.pl/wp-content/uploads
+PATH PLUGINS________: /home/respo/websites/protectwp.pl/wp-content/plugins
+PATH MUPLUGINS______: /home/respo/websites/protectwp.pl/wp-content/mu-plugins
+PATH THEMES_________: /home/respo/websites/protectwp.pl/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "protectwp.pl/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-cf7-db/advanced-cf7-db.php               ][ON:true ]  Advanced CF7 DB
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:worker/init.php                                   ][ON:true ]  ManageWP - Worker
+PLUGIN [SLUG:wpcf7-redirect/wpcf7-redirect.php                 ][ON:true ]  Redirection for Contact Form 7
+PLUGIN [SLUG:wp-security-audit-log/wp-security-audit-log.php   ][ON:true ]  WP Activity Log
+PLUGIN [SLUG:0-worker.php                                      ][ON:false]  ManageWP - Worker Loader
+PLUGIN [SLUG:protectwp-starter-pack.php                        ][ON:false]  ProtectWP starter pack
+
+********************************************************************************
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.09271]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04676]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Users/czuk/Local/protectwp/protectwp/app/public"
+--------------------------------------
+LOG-TIME[DELTA:   0.02637]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00103]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00390]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00327]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00091]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00514]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00157]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.01530]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00265]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00196]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00213]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00127]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [] isn't valid, update DB_CHARSET to utf8 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/Users/czuk/Local/protectwp/protectwp/app/public"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:42:06
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Opieka techniczna WordPress - ProtectWP"
+HOME URL NEW________: "http://protectwp.local"
+SITE URL NEW________: "http://protectwp.local/"
+CONTENT URL NEW_____: "http://protectwp.local/wp-content"
+UPLOAD URL NEW______: "http://protectwp.local/wp-content/uploads"
+PLUGINS URL NEW_____: "http://protectwp.local/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://protectwp.local/wp-content/mu-plugins"
+HOME PATH NEW_______: "/Users/czuk/Local/protectwp/protectwp/app/public"
+SITE PATH NEW_______: "/Users/czuk/Local/protectwp/protectwp/app/public/"
+CONTENT PATH NEW____: "/Users/czuk/Local/protectwp/protectwp/app/public/wp-content"
+UPLOAD PATH NEW_____: "/Users/czuk/Local/protectwp/protectwp/app/public/wp-content/uploads"
+PLUGINS PATH NEW____: "/Users/czuk/Local/protectwp/protectwp/app/public/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/Users/czuk/Local/protectwp/protectwp/app/public/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer"
+	FILE: "/Users/czuk/Local/protectwp/protectwp/app/public/20230608_opiekatechnicznawordpresspro_[HASH]_20230608142925_installer-backup.php"
+	FILE: "/Users/czuk/Local/protectwp/protectwp/app/public/20230608_opiekatechnicznawordpresspro_[HASH]_20230608142925_archive.zip"
+	FILE: "/Users/czuk/Local/protectwp/protectwp/app/public/installer.php"
+	FILE: "/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer-bootlog__3311742-08142925.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230608_opiekatechnicznawordpresspro_[HASH]_20230608142925_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 6625
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 02:42:10 - RUNTIME: 4.5222 sec. - Files processed: 6,019 of 6,019
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 pw_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 02:42:10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "pw_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "pw_cf7_vdata"____________________________________[ROWS:      31] [EXTRACT|REPLACE] [INST NAME: pw_cf7_vdata]
+TABLE "pw_cf7_vdata_entry"______________________________[ROWS:     279] [EXTRACT|REPLACE] [INST NAME: pw_cf7_vdata_entry]
+TABLE "pw_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_commentmeta]
+TABLE "pw_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_comments]
+TABLE "pw_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: pw_duplicator_packages]
+TABLE "pw_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_links]
+TABLE "pw_options"______________________________________[ROWS:     272] [EXTRACT|REPLACE] [INST NAME: pw_options]
+TABLE "pw_postmeta"_____________________________________[ROWS:     244] [EXTRACT|REPLACE] [INST NAME: pw_postmeta]
+TABLE "pw_posts"________________________________________[ROWS:     153] [EXTRACT|REPLACE] [INST NAME: pw_posts]
+TABLE "pw_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_termmeta]
+TABLE "pw_terms"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: pw_terms]
+TABLE "pw_term_relationships"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_term_relationships]
+TABLE "pw_term_taxonomy"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: pw_term_taxonomy]
+TABLE "pw_usermeta"_____________________________________[ROWS:      64] [EXTRACT|REPLACE] [INST NAME: pw_usermeta]
+TABLE "pw_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: pw_users]
+TABLE "pw_wsal_metadata"________________________________[ROWS:     992] [EXTRACT|REPLACE] [INST NAME: pw_wsal_metadata]
+TABLE "pw_wsal_occurrences"_____________________________[ROWS:     230] [EXTRACT|REPLACE] [INST NAME: pw_wsal_occurrences]
+TABLE "pw_yoast_indexable"______________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: pw_yoast_indexable]
+TABLE "pw_yoast_indexable_hierarchy"____________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: pw_yoast_indexable_hierarchy]
+TABLE "pw_yoast_migrations"_____________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: pw_yoast_migrations]
+TABLE "pw_yoast_primary_term"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: pw_yoast_primary_term]
+TABLE "pw_yoast_seo_links"______________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: pw_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.16 -- Build Server: 10.4.24
+FILE SIZE:	dup-database__[HASH].sql (3.33MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	205
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "pw_cf7_vdata"____________________________________[ROWS:    31]
+TABLE "pw_cf7_vdata_entry"______________________________[ROWS:   279]
+TABLE "pw_commentmeta"__________________________________[ROWS:     0]
+TABLE "pw_comments"_____________________________________[ROWS:     0]
+TABLE "pw_duplicator_packages"__________________________[ROWS:     1]
+TABLE "pw_links"________________________________________[ROWS:     0]
+TABLE "pw_options"______________________________________[ROWS:   272]
+TABLE "pw_postmeta"_____________________________________[ROWS:   244]
+TABLE "pw_posts"________________________________________[ROWS:   153]
+TABLE "pw_term_relationships"___________________________[ROWS:     0]
+TABLE "pw_term_taxonomy"________________________________[ROWS:     1]
+TABLE "pw_termmeta"_____________________________________[ROWS:     0]
+TABLE "pw_terms"________________________________________[ROWS:     1]
+TABLE "pw_usermeta"_____________________________________[ROWS:    64]
+TABLE "pw_users"________________________________________[ROWS:     2]
+TABLE "pw_wsal_metadata"________________________________[ROWS:   992]
+TABLE "pw_wsal_occurrences"_____________________________[ROWS:   230]
+TABLE "pw_yoast_indexable"______________________________[ROWS:    34]
+TABLE "pw_yoast_indexable_hierarchy"____________________[ROWS:    29]
+TABLE "pw_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "pw_yoast_primary_term"___________________________[ROWS:     0]
+TABLE "pw_yoast_seo_links"______________________________[ROWS:    11]
+
+INSERT DATA RUNTIME: 0.4230 sec.
+STEP-2 COMPLETE @ 02:42:10 - RUNTIME: 0.4230 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/respo/websites/protectwp.pl REPLACE: /Users/czuk/Local/protectwp/protectwp/app/public/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/respo/websites/protectwp.pl REPLACE: /Users/czuk/Local/protectwp/protectwp/app/public [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://protectwp.pl REPLACE: http://protectwp.local/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://protectwp.pl REPLACE: http://protectwp.local [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 02:42:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = 1], [inWpConfig = 1]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = 1]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = 1]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = 1]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [pw_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    47]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "pw_cf7_vdata"____________________________________[ROWS:    31][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_cf7_vdata_entry"______________________________[ROWS:   279][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_cf7_vdata_entry][0]
+
+EVALUATE TABLE: "pw_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_options"______________________________________[ROWS:   225][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_options][0]
+
+EVALUATE TABLE: "pw_postmeta"_____________________________________[ROWS:   244][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_postmeta][0]
+
+EVALUATE TABLE: "pw_posts"________________________________________[ROWS:   153][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_posts][0]
+
+EVALUATE TABLE: "pw_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_terms][0]
+
+EVALUATE TABLE: "pw_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_term_taxonomy][0]
+
+EVALUATE TABLE: "pw_usermeta"_____________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_usermeta][0]
+
+EVALUATE TABLE: "pw_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_users][0]
+
+EVALUATE TABLE: "pw_wsal_metadata"________________________________[ROWS:   992][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_wsal_metadata][0]
+
+EVALUATE TABLE: "pw_wsal_occurrences"_____________________________[ROWS:   230][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_wsal_occurrences][0]
+
+EVALUATE TABLE: "pw_yoast_indexable"______________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_yoast_indexable][0]
+
+EVALUATE TABLE: "pw_yoast_indexable_hierarchy"____________________[ROWS:    29][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_yoast_migrations][0]
+
+EVALUATE TABLE: "pw_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "pw_yoast_seo_links"______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/respo/websites/protectwp.pl" ===============> "/Users/czuk/Local/protectwp/protectwp/app/public"
+	SEARCH[urlnd]  2:"https://protectwp.pl" ============================> "http://protectwp.local"
+	CHUNK ACTION: CURRENT [search_replace][pw_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:22 	|	 Rows:2259 	|	 Cells:16636 
+UPDATED:	Tables:9 	|	 Rows:427 	|	 Cells:515 
+ERRORS:		0 
+RUNTIME:	0.477600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php
+New htaccess file created:/Users/czuk/Local/protectwp/protectwp/app/public/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://protectwp.local/"
+	UPDATE DB_NAME ""local""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE DISALLOW_FILE_EDIT "true"
+	WP CONFIG UPDATE FORCE_SSL_ADMIN "false"
+	WP CONFIG UPDATE IMAGE_EDIT_OVERWRITE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE SCRIPT_DEBUG "false"
+	WP CONFIG UPDATE CONCATENATE_SCRIPTS "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/Users/czuk/Local/protectwp/protectwp/app/public"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:42:11 - RUNTIME: 0.5830 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] FORCE_SSL_ADMIN was enabled on none SSL
+	SECTIONS: general
+	LONG MSG: It was found that FORCE_SSL_ADMIN is enabled and you are installing on a site without SSL, so that config has been disabled.
+
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Users/czuk/Local/protectwp/protectwp/app/public/index.php
+E_WARNING Constant DB_NAME already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[93]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[93]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_USER already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[94]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[94]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_PASSWORD already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[95]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[95]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_HOST already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[96]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[96]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_CHARSET already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[97]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[97]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_COLLATE already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[98]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[98]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING mysqli_real_connect(): (HY000/1045): Access denied for user '15535_webprotwp'@'localhost' (using password: YES)
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[2022]
+	--- TRACE ---
+	FUNCTION: mysqli_real_connect           FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[2022]
+	CLASS___: wpdb->db_connect              FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[773]
+	CLASS___: wpdb->__construct             FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/load.php[582]
+	FUNCTION: require_wp_db                 FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-settings.php[124]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/index.php[17]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Users/czuk/Local/protectwp/protectwp/app/public//wp-login.php
+E_WARNING Constant DB_NAME already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[93]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[93]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_USER already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[94]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[94]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_PASSWORD already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[95]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[95]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_HOST already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[96]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[96]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_CHARSET already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[97]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[97]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING Constant DB_COLLATE already defined
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[98]
+	--- TRACE ---
+	FUNCTION: define                        FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[98]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING mysqli_real_connect(): (HY000/1045): Access denied for user '15535_webprotwp'@'localhost' (using password: YES)
+	FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[2022]
+	--- TRACE ---
+	FUNCTION: mysqli_real_connect           FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[2022]
+	CLASS___: wpdb->db_connect              FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/class-wpdb.php[773]
+	CLASS___: wpdb->__construct             FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-includes/load.php[582]
+	FUNCTION: require_wp_db                 FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-settings.php[124]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-config.php[107]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-load.php[50]
+	FUNCTION: require                       FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Users/czuk/Local/protectwp/protectwp/app/public/wp-content/wp_test_script_3311742-08142925.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[/Users/czuk/Local/protectwp/protectwp/app/public/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03699]  MESSAGE:END RENDER PAGE
