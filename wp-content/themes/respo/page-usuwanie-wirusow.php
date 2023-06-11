@@ -64,7 +64,6 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/banner-shape.svg" alt="" class="w-100">
 			</div>
 			<section class="how-it-works how-it-works--viruses section mt-5 mb-0 my-lg-0 os-animation" data-os-animation="fadeIn" id="jak-dziala-ochrona">
 				<header class="how-it-works__header col">
