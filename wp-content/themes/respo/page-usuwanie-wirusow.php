@@ -65,6 +65,40 @@ get_header(); ?>
 					</div>
 				</section>
 			</div>
+			<section class="intro intro--about section mt-0" id="o-firmie">
+				<header class="intro__header">
+				<div class="container-fluid">
+					<div class="row">
+					<div class="col-12 offset-md-6 col-md-6">
+						<h2 class="section__heading intro__content os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
+							Twoja strona WordPress może być zawirusowana, jeśli:
+						</h2>
+					</div>
+					</div>
+				</div>
+				</header>
+				<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-right">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/img/o-firmie.png" alt="O firmie" class="intro__img img-fluid os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
+					</div>
+					<div class="col-12 col-md-6 order-1 order-md-2">
+					<div class="intro__content os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
+						<ul class="intro__ul">
+							<li>odnotowuje drastyczny spadek ruchu,</li>
+							<li>przekierowuje na inne, podejrzane witryny,</li>
+							<li>działa znacznie wolniej niż do tej pory,</li>
+							<li>jej kod źródłowy uległ zmianie,</li>
+							<li>pojawia się w wyszukiwarce wraz z dodatkowymi, spamerskimi podstronami,</li>
+							<li>znajdują się na niej nieznane treści,</li>
+							<li>została oznaczona jako niebezpieczna i stwarzająca zagrożenie,</li>
+							<li>hosting zablokował ją z powodu wykrycia spamu</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				</div>
+			</section>
 			<section class="how-it-works how-it-works--viruses section mt-5 mb-0 my-lg-0 os-animation" data-os-animation="fadeIn" id="jak-dziala-ochrona">
 				<header class="how-it-works__header col">
 					<h2 class="section__heading section__heading--medium text-center os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Dlaczego warto wybrać właśnie nas?</h2>
