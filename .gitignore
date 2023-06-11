@@ -51,6 +51,9 @@ Temporary Items
 /wp-*.php
 /xmlrpc.php
 
+# Compiled CSS
+/wp-content/themes/respo/css/
+
 # Configuration
 wp-config.php
 
