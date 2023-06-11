@@ -57,6 +57,9 @@ Temporary Items
 # Prepros config
 /wp-content/themes/respo/sass/prepros.config
 
+# Local Xdebuginfo
+local-xdebuginfo.php
+
 # Configuration
 wp-config.php
 
