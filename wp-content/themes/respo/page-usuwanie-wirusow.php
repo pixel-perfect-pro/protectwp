@@ -56,7 +56,7 @@ get_header(); ?>
 				<section class="banner d-flex align-items-center" id="home">
 					<div class="container">
 						<div class="row">
-							<div class="col-10 offset-1 d-flex flex-wrap align-items-center os-animation pl-xl-0" data-os-animation="fadeIn" data-os-animation-delay="1s">
+							<div class="col-12 col-xl-10 offset-xl-1 d-flex flex-wrap align-items-center os-animation pl-xl-0" data-os-animation="fadeIn" data-os-animation-delay="1s">
 								<h1 class="banner__heading text-center">Usuniemy wirusy z Twojego WordPressa i&nbsp;WooCommerce!</h1>
 								<p class="banner__text text-center">Od ponad 10 lat przywracamy strony WordPress i WooCommerce do pełnej sprawności. Wiemy, że każde zawirusowanie serwisu może oznaczać dla Ciebie duże straty. Właśnie dlatego szybko usuwamy infekcje i wdrażamy odpowiednie zabezpieczenia. Dzięki temu zyskujesz w pełni działającą stronę, przestajesz martwić się kwestiami technicznymi i zaczynasz czerpać maksymalne zyski ze swojego biznesu online.</p>
 								<a href="#opieka-wordpress" class="btn mx-auto">Poznaj szczegóły</a>
