@@ -54,6 +54,9 @@ Temporary Items
 # Compiled CSS
 /wp-content/themes/respo/css/
 
+# Prepros config
+/wp-content/themes/respo/sass/prepros.config
+
 # Configuration
 wp-config.php
 
