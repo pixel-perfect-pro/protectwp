@@ -11,201 +11,266 @@ $how-it-works__text: $color1;
 // -----------------------------//
 
 .how-it-works {
-	padding-bottom: 5rem;
+    padding-bottom: 5rem;
 
-	@include lg {
-		padding-bottom: 10rem;
-	}
+    @include lg {
+        padding-bottom: 10rem;
+    }
 
-	@include xl {
-		padding-bottom: 16rem;
-	}
+    @include xl {
+        padding-bottom: 16rem;
+    }
 
-	@include md {
-		background-image: url('../img/how-it-works-bg.png');
-		background-position: center top;
-		background-repeat: no-repeat;
-		background-size: 52rem auto;
-	}
+    @include md {
+        background-image: url('../img/how-it-works-bg.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 52rem auto;
+    }
 
-	@include lg {
-		background-size: 66rem auto;
-	}
+    @include lg {
+        background-size: 66rem auto;
+    }
 
-	@include xl {
-		background-size: auto;
-	}
+    @include xl {
+        background-size: auto;
+    }
 
-	&__header {
-		padding: 0 0 4.8rem 0;
+    &--viruses {
+        background-image: none;
 
-		@include lg {
-			padding: 3.1rem 0 4rem 0;
-		}
+        @include lg {
+            background-image: url('../img/how-it-works-bg.png');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: 67rem auto;
+        }
 
-		@include xl {
-			padding: 4.3rem 0 3.5rem 0;
-		}
-	}
+        @include xl {
+            background-size: 74rem auto;
+        }
+    }
 
-	&__row {
+    &__header {
+        padding: 0 0 4.8rem 0;
 
-		&--1 {
-			margin-bottom: 1.5rem;
+        @include lg {
+            padding: 3.1rem 0 4rem 0;
+        }
 
-			@include md {
-				margin-bottom: 2.5rem;
-			}
+        @include xl {
+            padding: 4.3rem 0 3.5rem 0;
+        }
+    }
 
-			@include lg {
-				margin-bottom: 5.6rem;
-			}
-		}
-	}
+    &__row {
+        &--1 {
+            margin-bottom: 1.5rem;
 
-	&__number {
-		font: {
-			family: 'Red Hat Display', sans-serif;
-			size: 3.3rem;
-			weight: 700;
-		}
-		color: $how-it-works__number;
-		top: -1%;
-		left: 55%;
-		z-index: 1;
-		line-height: 0;
+            @include md {
+                margin-bottom: 2.5rem;
+            }
 
-		@include md {
-			left: 60%;
-		}
+            @include lg {
+                margin-bottom: 5.6rem;
+            }
 
-		@include lg {
-			font: {
-				size: 3.5rem;
-			}
-			top: -1%;
-			left: 57%;
-		}
+            .how-it-works--viruses & {
+                @include md {
+                    margin-bottom: 3.5rem;
+                }
 
-		@include xl {
-			font: {
-				size: 3.98125rem;
-			}
-			top: -2%;
-			left: 57.5%;
-		}
+                @include xl {
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
 
-		&--1 {
-			left: 56%;
+    &__number {
+        font: {
+            family: 'Red Hat Display', sans-serif;
+            size: 3.3rem;
+            weight: 700;
+        }
+        color: $how-it-works__number;
+        top: -1%;
+        left: 55%;
+        z-index: 1;
+        line-height: 0;
 
-			@include md {
-				left: 60%;
-			}
+        @include md {
+            left: 60%;
+        }
 
-			@include lg {
-				left: 58%;
-			}
+        @include lg {
+            font: {
+                size: 3.5rem;
+            }
+            top: -1%;
+            left: 57%;
+        }
 
-			@include xl {
-				left: 60%;
-			}
-		}
-	}
+        @include xl {
+            font: {
+                size: 3.98125rem;
+            }
+            top: -2%;
+            left: 57.5%;
+        }
 
-	&__icon {
-		@include flex-center;
-		background-color: $how-it-works__icon__bgc;
-		background-position: center center;
-		background-repeat: no-repeat;
-		width: 7.5rem;
-		height: 7.5rem;
-		border-radius: 0.65rem;
-		box-shadow: 0px 17px 30px 0px rgba(3, 77, 111, 0.13);
-		z-index: 2;
-		margin-bottom: 1rem;
+        &--1 {
+            left: 56%;
 
-		@include lg {
-			margin-bottom: 1.25rem;
-		}
+            @include md {
+                left: 60%;
+            }
 
-		@include xl {
-			margin-bottom: 1.65rem;
-		}
+            @include lg {
+                left: 58%;
+            }
 
-		&--1 {
-			background-image: url('../img/how-it-works-icon-1.svg');
-			background-size: 53.5%;
-		}
+            @include xl {
+                left: 60%;
+            }
+        }
 
-		&--2 {
-			background-image: url('../img/how-it-works-icon-2.svg');
-			background-size: 53.5%;
-		}
+        .how-it-works--viruses & {
+            left: 55%;
 
-		&--3 {
-			background-image: url('../img/how-it-works-icon-3.svg');
-			background-size: 53.5%;
-		}
+            @include xl {
+                left: 57.5%;
+            }
 
-		&--4 {
-			background-image: url('../img/how-it-works-icon-4.svg');
-			background-size: 53.5%;
-			background-position: 54% 52%;
-		}
+            &--1 {
+                @include lg {
+                    left: 58%;
+                }
 
-		&--5 {
-			background-image: url('../img/how-it-works-icon-5.svg');
-			background-size: 53.5%;
-		}
+                @include xl {
+                    left: 60%;
+                }
+            }
+        }
+    }
 
-		@include md {
-			width: 6rem;
-			height: 6rem;
-		}
+    &__icon {
+        @include flex-center;
+        background-color: $how-it-works__icon__bgc;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 0.65rem;
+        box-shadow: 0px 17px 30px 0px rgba(3, 77, 111, 0.13);
+        z-index: 2;
+        margin-bottom: 1rem;
 
-		@include lg {
-			width: 7.5rem;
-			height: 7.5rem;
-		}
+        @include lg {
+            margin-bottom: 1.25rem;
+        }
 
-		@include xl {
-			width: 8.75rem;
-			height: 8.75rem;
-		}
-	}
+        @include xl {
+            margin-bottom: 1.65rem;
+        }
 
-	&__text {
-		font: {
-			family: 'Red Hat Display', sans-serif;
-			size: 1rem;
-		}
-		color: $how-it-works__text;
-		width: 100%;
-		line-height: 1.25;
-		margin-bottom: 5rem;
+        &--1 {
+            background-image: url('../img/how-it-works-icon-1.svg');
+            background-size: 53.5%;
+        }
 
-		@include md {
-			margin-bottom: initial;
-		}
+        &--2 {
+            background-image: url('../img/how-it-works-icon-2.svg');
+            background-size: 53.5%;
+        }
 
-		@include lg {
-			font: {
-				size: 1.0625rem;
-			}
-		}
+        &--3 {
+            background-image: url('../img/how-it-works-icon-3.svg');
+            background-size: 53.5%;
+        }
 
-		@include xl {
-			font: {
-				size: 1.125rem;
-			}
-			width: 95%;
-		}
+        &--4 {
+            background-image: url('../img/how-it-works-icon-4.svg');
+            background-size: 53.5%;
+            background-position: 54% 52%;
+        }
 
-		&--1 {
+        &--5 {
+            background-image: url('../img/how-it-works-icon-5.svg');
+            background-size: 53.5%;
+        }
 
-			@include md {
-				width: 80%;
-			}
-		}
-	}
+        @include md {
+            width: 6rem;
+            height: 6rem;
+        }
+
+        @include lg {
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+
+        @include xl {
+            width: 8.75rem;
+            height: 8.75rem;
+        }
+    }
+
+    &__heading {
+        font: {
+            size: 1.3rem;
+        }
+        text-align: center;
+        margin-inline: auto;
+
+        @include lg {
+            width: 95%;
+        }
+    }
+
+    &__text {
+        font: {
+            family: 'Red Hat Display', sans-serif;
+            size: 1rem;
+        }
+        color: $how-it-works__text;
+        width: 100%;
+        line-height: 1.25;
+        margin-bottom: 5rem;
+
+        @include md {
+            margin-bottom: initial;
+        }
+
+        @include lg {
+            font: {
+                size: 1.0625rem;
+            }
+        }
+
+        @include xl {
+            font: {
+                size: 1.125rem;
+            }
+            width: 95%;
+        }
+
+        &--1 {
+            @include md {
+                width: 80%;
+            }
+        }
+
+        .how-it-works--viruses & {
+            margin-bottom: 5rem;
+
+            @include lg {
+                font: {
+                    size: 1rem;
+                }
+                width: 95%;
+                margin-bottom: initial;
+            }
+        }
+    }
 }
