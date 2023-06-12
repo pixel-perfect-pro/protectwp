@@ -99,6 +99,24 @@ get_header(); ?>
 				</div>
 				</div>
 			</section>
+			<section class="services section" id="uslugi">
+				<header class="services__header col">
+					<h2 class="section__heading services__heading text-center os-animation" data-os-animation="fadeIn">Nie zwlekaj i usuń wirusy z WordPressa lub WooCommerce!</h2>
+				</header>
+				<div class="container px-md-0">
+					<div class="row">
+						<div class="col-12 d-flex flex-wrap os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
+							<div class="services__bubble services-bubble w-100 text-center">
+								<b class="color12">9/10</b> zainfekowanych stron <strong>nie działa prawidłowo</strong><br>
+								<b class="color12">70.000</b> z nich jest <strong>blokowanych przez Google</strong> w każdym tygodniu<br>
+								<b class="color12">1 infekcja strony</b> może oznaczać <strong>stratę klientów, przychodów i zaufania</strong>
+							</div>
+							<img src="<?php bloginfo('stylesheet_directory'); ?>/img/services-bubble-shape.svg" alt="" class="services-bubble__shape ml-auto">
+						</div>
+						<a href="#kontakt" class="btn mx-auto os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">Skontaktuj się z nami</a>
+					</div>
+				</div>
+			</section>
 			<section class="how-it-works how-it-works--viruses section mt-5 mb-0 my-lg-0 os-animation" data-os-animation="fadeIn" id="jak-dziala-ochrona">
 				<header class="how-it-works__header col">
 					<h2 class="section__heading section__heading--medium text-center os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Dlaczego warto wybrać właśnie nas?</h2>
