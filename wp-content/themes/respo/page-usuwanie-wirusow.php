@@ -109,7 +109,7 @@ get_header(); ?>
 							<div class="services__bubble services-bubble w-100 text-center">
 								<b class="color12">9/10</b> zainfekowanych stron <strong>nie działa prawidłowo</strong><br>
 								<b class="color12">70.000</b> z nich jest <strong>blokowanych przez Google</strong> w każdym tygodniu<br>
-								<b class="color12">1 infekcja strony</b> może oznaczać <strong>stratę klientów, przychodów i zaufania</strong>
+								<b class="color12">1 infekcja strony</b> może oznaczać <strong>stratę klientów</strong>, przychodów i zaufania
 							</div>
 							<img src="<?php bloginfo('stylesheet_directory'); ?>/img/services-bubble-shape.svg" alt="" class="services-bubble__shape ml-auto">
 						</div>
