@@ -1,0 +1,121 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+.consent-mode-v2 {
+    .banner {
+        height: auto;
+        padding-bottom: 5rem;
+
+        @include md {
+            padding-top: 7rem;
+        }
+
+        &__heading {
+            margin-bottom: 0.8em;
+        }
+    }
+
+    .intro__img {
+        @include xl {
+            width: 90%;
+            margin-right: 30px;
+        }
+    }
+
+    .how-it-works--viruses {
+        background: none;
+        padding-bottom: 5rem;
+    }
+
+    .how-it-works__icon {
+        &--1 {
+            background-image: url('../img/cookie-icon-1.png');
+            background-size: 53.5%;
+        }
+
+        &--2 {
+            background-image: url('../img/cookie-icon-2.png');
+            background-size: 53.5%;
+        }
+
+        &--3 {
+            background-image: url('../img/cookie-icon-3.png');
+            background-size: 53.5%;
+        }
+    }
+
+    .how-it-works--viruses .how-it-works__header {
+        padding: 2.3rem 0 2.3rem 0;
+    }
+
+    .how-it-works--viruses .how-it-works__text {
+        font: {
+            size: 1.25rem;
+        }
+
+        line-height: 1.4;
+        margin-top: 1em;
+    }
+
+    .how-it-works__heading--level3 {
+        display: block;
+        width: 100%;
+    }
+
+    .how-it-works__text--top,
+    .how-it-works__text--bottom {
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    .intro__content,
+    .services {
+        p {
+            font: {
+                size: 1.125rem;
+            }
+
+            color: #003f5e;
+        }
+
+        strong {
+            display: inline;
+        }
+    }
+
+    .services-bubble {
+        font: {
+            size: 1.35rem;
+        }
+    }
+
+    .services__ul {
+        @extend .intro__ul;
+        max-width: 850px;
+        margin-inline: auto;
+
+        li {
+            font: {
+                size: 1.125rem;
+            }
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.63rem;
+
+            &::before {
+                content: url('../img/li.png');
+                display: inline-flex;
+                align-self: flex-start;
+                width: 1.75rem;
+                height: 1.75rem;
+                margin-top: 0;
+                margin-right: 1.1rem;
+            }
+        }
+    }
+}
