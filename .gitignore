@@ -52,7 +52,7 @@ Temporary Items
 /xmlrpc.php
 
 # Compiled CSS
-/wp-content/themes/respo/css/
+#/wp-content/themes/respo/css/
 
 # Prepros config
 /wp-content/themes/respo/sass/prepros.config
