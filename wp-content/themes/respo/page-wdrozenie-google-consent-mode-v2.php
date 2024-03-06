@@ -109,10 +109,20 @@ get_header(); ?>
 						</p>
 						</div>
 					</div>
-					<div class="how-it-works__row how-it-works__row--2 row os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.25s">
-						<h3 class="how-it-works__heading--level3 text-center">Jesteśmy po to, żeby Ci pomóc</h3>
-						<p class="how-it-works__text how-it-works__text--bottom text-center">Doskonale rozumiemy, że konieczność wdrożenia Google Consent Mode v2 może wydawać się kolejnym przykrym obowiązkiem nałożonym na właścicieli witryn internetowych. Na szczęście jest to jednorazowa czynność, którą wykonamy za Ciebie, abyś Ty nie musiał już zaprzątać sobie tym głowy. A Twoja strona wyróżni się profesjonalizmem, spośród innych stron, które nie wdrożyły jeszcze Google Consent Mode v2.</p>
-						<a href="#kontakt" class="btn mx-auto mt-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">Zamów wdrożenie Consent Mode v2</a>
+					<div class="how-it-works__row how-it-works__row--2 row pt-lg-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.25s">
+						<div class="col-12 col-md-6 col-xl-7 d-flex flex-wrap align-items-start pt-xl-4">
+							<div>
+								<h3 class="how-it-works__heading--level3 text-center">Jesteśmy po to, żeby Ci pomóc</h3>
+								<p class="how-it-works__text how-it-works__text--bottom text-center">Doskonale rozumiemy, że konieczność wdrożenia Google Consent Mode v2 może wydawać się kolejnym przykrym obowiązkiem nałożonym na właścicieli witryn internetowych. Na szczęście jest to jednorazowa czynność, którą wykonamy za Ciebie, abyś Ty nie musiał już zaprzątać sobie tym głowy. A Twoja strona wyróżni się profesjonalizmem, spośród innych stron, które nie wdrożyły jeszcze Google Consent Mode v2.</p>
+								<p class="how-it-works__text how-it-works__text--bottom text-center">Przykładowy wygląd bannera cookies zgodnego z Google Consent Mode v2 prezentujemy obok.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xl-5 pl-xl-5">
+							<img loading="eager" width="930" height="986" src="<?php bloginfo('stylesheet_directory'); ?>/img/cookie-popup.jpg" alt="Widok banneru cookies" class="img-fluid">
+						</div>
+						<div class="col-12 text-center">
+							<a href="#kontakt" class="btn mx-auto mt-5 os-animation" data-os-animation="fadeIn">Zamów wdrożenie Consent Mode v2</a>
+						</div>
 					</div>
 				</div>
 			</section>
