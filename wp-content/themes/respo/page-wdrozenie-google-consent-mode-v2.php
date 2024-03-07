@@ -57,7 +57,7 @@ get_header(); ?>
 					<div class="container">
 						<div class="row">
 							<div class="col-12 col-xl-10 offset-xl-1 d-flex flex-wrap align-items-center os-animation px-xl-0" data-os-animation="fadeIn" data-os-animation-delay="1s">
-								<h1 class="banner__heading text-center">Już dziś <b class="color12">mija termin</b> na wdrożenie Google Consent Mode v2</h1>
+								<h1 class="banner__heading text-center"><b class="color12">6 marca 2024</b> to termin na wdrożenie Google Consent Mode v2</h1>
 								<p class="banner__text text-center">Google Consent Mode v2, nowa dyrektywa Unii Europejskiej, nakłada obowiązek uzyskania zgody użytkowników przez strony internetowe przed zapisaniem plików cookie na ich urządzeniach. Użytkownik powinien mieć możliwość modyfikacji swoich zgód w dowolnym momencie.</p>
 								<p class="banner__text text-center">Ta zmiana ma zastosowanie <strong>do każdej strony, która nie ma zaawansowanego banneru cookies</strong> (umożliwiającego wybór i późniejszą edycję zgód) i należy ją wdrożyć do <strong>6 marca 2024 r.</strong></p>
 								<p class="banner__text text-center">To już ostatnia szansa na zabezpieczenie Twojej strony przed potencjalną utratą danych w Google Analytics i uniknięcie ryzyka spadku skuteczności Twoich działań online.</p>
