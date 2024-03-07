@@ -185,7 +185,7 @@ get_header(); ?>
 								<span><b class="color12">Kontakt do osoby odpowiedzialnej:</b> w miarę możliwości, prosimy o przekazanie nam kontaktu do osoby odpowiedzialnej za zarządzanie stroną internetową w Państwa firmie.</span>
 							</li>
 							<li>
-								<span><b class="color12">Realizacja i testowanie:</b> w przeciągu maksymalnie 3 dni roboczych od otrzymania niezbędnych informacji, wdrożymy banner cookies zgodny z Google Consent Mode v2.</span>
+								<span><b class="color12">Realizacja i testowanie:</b> w przeciągu maksymalnie 3 dni roboczych od otrzymania niezbędnych informacji, wdrożymy banner cookies zgodny z Consent Mode v2. Dalsza część wdrożenia (po stronie Google Tag Managera) należy już do opiekuna Państwa kampanii w Google.</span>
 							</li>
 							<li>
 								<span><b class="color12">Informacja o zakończeniu prac:</b> poinformujemy Państwa o zakończeniu prac za pośrednictwem wiadomości e-mail i prześlemy fakturę do opłacenia.</span>
