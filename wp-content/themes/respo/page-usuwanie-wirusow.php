@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<a href="#main" class="sr-only sr-only-focusable" tabindex="1">Przejdź do treści</a>
 
-	<div class="content">
+	<div class="content removing-viruses">
 
 		<!-- header -->
 		<header class="header position-fixed w-100 d-flex align-items-center" id="header">
@@ -122,70 +122,101 @@ get_header(); ?>
 					<h2 class="section__heading section__heading--medium text-center os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Dlaczego warto wybrać właśnie nas?</h2>
 				</header>
 				<div class="container staggered-animation-container">
-				<div class="how-it-works__row how-it-works__row--1 row">
-					<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="0.7s">
-					<div class="how-it-works__number how-it-works__number--1 position-absolute">01</div>
-					<div class="how-it-works__icon how-it-works__icon--1 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Szybka naprawa
-					</h3>
-					<p class="how-it-works__text how-it-works__text--1 mx-auto">
-						Wiemy, że każdy przestój w działaniu Twojej strony może oznaczać dla Ciebie duże straty finansowe. Właśnie dlatego naprawimy ją najszybciej, jak to możliwe.
-					</p>
+					<div class="how-it-works__row how-it-works__row--1 row">
+						<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="0.7s">
+						<div class="how-it-works__number how-it-works__number--1 position-absolute">01</div>
+						<div class="how-it-works__icon how-it-works__icon--1 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Szybka naprawa
+						</h3>
+						<p class="how-it-works__text how-it-works__text--1 mx-auto">
+							Wiemy, że każdy przestój w działaniu Twojej strony może oznaczać dla Ciebie duże straty finansowe. Właśnie dlatego naprawimy ją najszybciej, jak to możliwe.
+						</p>
+						</div>
+						<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="0.95s">
+						<div class="how-it-works__number how-it-works__number--2 position-absolute">02</div>
+						<div class="how-it-works__icon how-it-works__icon--2 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Maksymalna skuteczność
+						</h3>
+						<p class="how-it-works__text how-it-works__text--2 mx-auto">
+							Usuwaniem wirusów z WordPress i WooCommerce zajmujemy się od ponad 10 lat. Dzięki tak dużemu doświadczeniu dokładnie wiemy, gdzie szukać infekcji i jak sprawnie pozbyć się ich z Twojej witryny.
+						</p>
+						</div>
+						<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
+						<div class="how-it-works__number how-it-works__number--3 position-absolute">03</div>
+						<div class="how-it-works__icon how-it-works__icon--3 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Współpraca na jasnych zasadach
+						</h3>
+						<p class="how-it-works__text how-it-works__text--3 mx-auto">
+							Nie zasypiemy Cię programistycznym żargonem ani technicznymi terminami. Dbamy, by zasady współpracy były dla Ciebie całkowicie zrozumiałe. I to nawet jeśli jesteś spoza branży.
+						</p>
+						</div>
 					</div>
-					<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="0.95s">
-					<div class="how-it-works__number how-it-works__number--2 position-absolute">02</div>
-					<div class="how-it-works__icon how-it-works__icon--2 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Maksymalna skuteczność
-					</h3>
-					<p class="how-it-works__text how-it-works__text--2 mx-auto">
-						Usuwaniem wirusów z WordPress i WooCommerce zajmujemy się od ponad 10 lat. Dzięki tak dużemu doświadczeniu dokładnie wiemy, gdzie szukać infekcji i jak sprawnie pozbyć się ich z Twojej witryny.
-					</p>
-					</div>
-					<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
-					<div class="how-it-works__number how-it-works__number--3 position-absolute">03</div>
-					<div class="how-it-works__icon how-it-works__icon--3 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Współpraca na jasnych zasadach
-					</h3>
-					<p class="how-it-works__text how-it-works__text--3 mx-auto">
-						Nie zasypiemy Cię programistycznym żargonem ani technicznymi terminami. Dbamy, by zasady współpracy były dla Ciebie całkowicie zrozumiałe. I to nawet jeśli jesteś spoza branży.
-					</p>
+					<div class="how-it-works__row how-it-works__row--2 row">
+						<div class="col-12 col-lg-4 text-center order-md-last staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.45s">
+						<div class="how-it-works__number how-it-works__number--4 position-absolute">04</div>
+						<div class="how-it-works__icon how-it-works__icon--4 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Cykliczna kopia zapasowa Twojej strony
+						</h3>
+						<p class="how-it-works__text how-it-works__text--4 mx-auto">
+							Zapomnij o utracie ważnych danych i długich przestojach Twojej strony WordPress lub sklepu WooCommerce. Robimy regularny backup, dzięki czemu zawsze masz dostęp do najnowszej wersji Twojej witryny.
+						</p>
+						</div>
+						<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.7s">
+						<div class="how-it-works__number how-it-works__number--5 position-absolute">05</div>
+						<div class="how-it-works__icon how-it-works__icon--5 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Gwarancja trwałego usunięcia wirusa
+						</h3>
+						<p class="how-it-works__text how-it-works__text--5 mx-auto">
+							Jesteśmy pewni skuteczności naszych działań, dlatego udzielamy 14-dniowej gwarancji. Jeśli w tym czasie wirus wróci na Twoją stronę, usuniemy go za darmo. 
+						</p>
+						</div>
+						<div class="col-12 col-lg-4 text-center order-md-first staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.95s">
+						<div class="how-it-works__number how-it-works__number--5 position-absolute">06</div>
+						<div class="how-it-works__icon how-it-works__icon--5 position-relative mx-auto"></div>
+						<h3 class="how-it-works__heading">
+							Stała opieka techniczna nad Twoją stroną
+						</h3>
+						<p class="how-it-works__text how-it-works__text--5 mx-auto">
+							Chcesz zapobiec podobnym problemom w przyszłości? Zadbamy, by Twoja strona działała bez zarzutu. Będziemy prowadzić monitoring antywirusowy, wprowadzać nowe zabezpieczenia przed atakami i regularnie raportować naszą pracę. 
+						</p>
+						</div>
 					</div>
 				</div>
-				<div class="how-it-works__row how-it-works__row--2 row">
-					<div class="col-12 col-lg-4 text-center order-md-last staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.45s">
-					<div class="how-it-works__number how-it-works__number--4 position-absolute">04</div>
-					<div class="how-it-works__icon how-it-works__icon--4 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Cykliczna kopia zapasowa Twojej strony
-					</h3>
-					<p class="how-it-works__text how-it-works__text--4 mx-auto">
-						Zapomnij o utracie ważnych danych i długich przestojach Twojej strony WordPress lub sklepu WooCommerce. Robimy regularny backup, dzięki czemu zawsze masz dostęp do najnowszej wersji Twojej witryny.
-					</p>
+			</section>
+			<section class="how-we-remove-viruses section">
+				<header class="how-we-remove-viruses__header container">
+					<div class="col">
+						<h2 class="section__heading section__heading--medium text-center os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Jak pomagamy usunąć wirusa z WordPressa lub sklepu WooCommerce?</h2>
 					</div>
-					<div class="col-12 col-lg-4 text-center staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.7s">
-					<div class="how-it-works__number how-it-works__number--5 position-absolute">05</div>
-					<div class="how-it-works__icon how-it-works__icon--5 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Gwarancja trwałego usunięcia wirusa
-					</h3>
-					<p class="how-it-works__text how-it-works__text--5 mx-auto">
-						Jesteśmy pewni skuteczności naszych działań, dlatego udzielamy 14-dniowej gwarancji. Jeśli w tym czasie wirus wróci na Twoją stronę, usuniemy go za darmo. 
-					</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<ul class="how-we-remove-viruses__ul col os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.25s">
+							<li>
+								<span><b class="color12">Przeprowadzamy dokładną analizę zagrożenia</b> <br>sprawdzamy logi na serwerze, pliki strony, spójność i poprawność baz danych oraz weryfikujemy kod Twojej strony pod kątem złośliwych skryptów.</span>
+							</li>
+							<li>
+								<span><b class="color12">Usuwamy złośliwe oprogramowanie</b> <br>po pozbyciu się wirusów dbamy też o wykreślenie Twojej strony z ewentualnych blacklist.</span>
+							</li>
+							<li>
+								<span><b class="color12">Zapobiegamy kolejnym infekcjom</b> <br>przeprowadzamy analizę hostingu, wtyczek i motywów oraz wdrażamy niezbędne zabezpieczenia chroniące przed powróceniem wirusów.</span>
+							</li>
+							<li>
+								<span><b class="color12">Wprowadzamy niezbędne aktualizacje</b> <br>W razie możliwości instalujemy wtyczki i motywy w najnowszej wersji, by strona była bezpieczna i maksymalnie sprawna.</span>
+							</li>
+							<li>
+								<span><b class="color12">Przygotowujemy szczegółowy raport</b> <br>w prosty, zrozumiały sposób podsumowujemy swoje działania i przedstawiamy Ci rekomendacje co do dalszych zabezpieczeń.</span>
+							</li>
+							<li>
+								<span><b class="color12">Zyskujesz w pełni działającą stronę</b> <br>pozostaje Ci już tylko skupić się na prowadzeniu swojego biznesu!.</span>
+							</li>
+						</ul>
 					</div>
-					<div class="col-12 col-lg-4 text-center order-md-first staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.95s">
-					<div class="how-it-works__number how-it-works__number--5 position-absolute">06</div>
-					<div class="how-it-works__icon how-it-works__icon--5 position-relative mx-auto"></div>
-					<h3 class="how-it-works__heading">
-						Stała opieka techniczna nad Twoją stroną
-					</h3>
-					<p class="how-it-works__text how-it-works__text--5 mx-auto">
-						Chcesz zapobiec podobnym problemom w przyszłości? Zadbamy, by Twoja strona działała bez zarzutu. Będziemy prowadzić monitoring antywirusowy, wprowadzać nowe zabezpieczenia przed atakami i regularnie raportować naszą pracę. 
-					</p>
-					</div>
-				</div>
 				</div>
 			</section>
 			<section class="contact" id="kontakt">
