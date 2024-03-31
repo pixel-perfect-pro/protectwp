@@ -1,0 +1,56 @@
+// -----------------------------//
+//          VARIABLES           //
+// -----------------------------//
+
+// -----------------------------//
+//            STYLES            //
+// -----------------------------//
+
+.removing-viruses {
+    .how-it-works {
+        padding-bottom: 0;
+
+        @include lg {
+            padding-bottom: 6rem;
+        }
+
+        @include xl {
+            padding-bottom: 4rem;
+        }
+    }
+
+    .how-we-remove-viruses {
+        @extend .intro--about;
+        margin-top: 0;
+    }
+
+    .how-we-remove-viruses__header {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .how-we-remove-viruses__ul {
+        @extend .intro__ul;
+        max-width: 850px;
+        margin-inline: auto;
+
+        li {
+            font: {
+                size: 1.125rem;
+            }
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.63rem;
+
+            &::before {
+                content: url('../img/li.png');
+                display: inline-flex;
+                align-self: flex-start;
+                width: 1.75rem;
+                height: 1.75rem;
+                margin-top: 0;
+                margin-right: 1.1rem;
+            }
+        }
+    }
+}
