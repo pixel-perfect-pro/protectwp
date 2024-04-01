@@ -14,7 +14,7 @@ get_header(); ?>
 	<div class="content removing-viruses">
 
 		<!-- header -->
-		<header class="header position-fixed w-100 d-flex align-items-center" id="header">
+		<header class="header position-fixed w-100 d-flex align-items-center scrolled" id="header">
 		<div class="container-fluid h-100 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.25s">
 			<div class="row h-100">
 			<div class="col-6 col-md-4 col-lg-2 d-flex justify-content-start align-items-center header__brand px-md-0">
@@ -59,13 +59,13 @@ get_header(); ?>
 							<div class="col-12 col-xl-10 offset-xl-1 d-flex flex-wrap align-items-center os-animation pl-xl-0" data-os-animation="fadeIn" data-os-animation-delay="1s">
 								<h1 class="banner__heading text-center">Usuniemy wirusy z Twojego WordPressa i&nbsp;WooCommerce!</h1>
 								<p class="banner__text text-center">Od ponad 10 lat przywracamy strony WordPress i WooCommerce do pełnej sprawności. Wiemy, że każde zawirusowanie serwisu może oznaczać dla Ciebie duże straty. Właśnie dlatego szybko usuwamy infekcje i wdrażamy odpowiednie zabezpieczenia. Dzięki temu zyskujesz w pełni działającą stronę, przestajesz martwić się kwestiami technicznymi i zaczynasz czerpać maksymalne zyski ze swojego biznesu online.</p>
-								<a href="#opieka-wordpress" class="btn mx-auto">Poznaj szczegóły</a>
+								<a href="#wstep" class="btn mx-auto">Poznaj szczegóły</a>
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
-			<section class="intro intro--about section mt-0" id="o-firmie">
+			<section class="intro intro--about section mt-0" id="wstep">
 				<header class="intro__header">
 				<div class="container-fluid">
 					<div class="row">
@@ -188,6 +188,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/pricing-shape.png" alt="" class="w-100 pricing__shape">
 			<section class="how-we-remove-viruses section">
 				<header class="how-we-remove-viruses__header container">
 					<div class="col">
@@ -219,6 +220,14 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
+			<section class="cta container">
+				<div class="row">
+					<div class="col text-center py-5">
+						<h3 class="text-center mb-5">Przestań tracić i zacznij zarabiać. Powierz nam przywrócenie Twojej strony do pełnej sprawności i czerp maksymalne korzyści ze swojego biznesu!</h3>
+						<a href="#kontakt" class="btn mx-auto mb-5 os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.2s" style="animation-delay: 0.2s;">Skontaktuj się z nami</a>
+					</div>
+				</div>
+			</section>
 			<section class="contact" id="kontakt">
 		        <div class="container-fluid px-xl-0">
 		          <div class="contact__wrapper">
@@ -233,62 +242,9 @@ get_header(); ?>
 		              <div class="col-12 col-md-8 p-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
 		                <h2 class="contact__heading">Skontaktuj się</h2>
 
-		                <form class="contact__form contact-form row pr-md-3" id="contactForm" name="sentMessage" novalidate="novalidate">
-
-		                            <div class="col-12 col-md pr-md-3">
-
-
-		                    <div class="form-group">
-		                      <label for="name">Imię lub nazwa firmy <span class="contact-form__required">*</span></label>
-		                                      <input class="form-control" name="name" id="name" type="text" placeholder="Imię lub nazwa firmy" required="required" data-validation-required-message="Wpisz imię lub nazwę firmy.">
-		                                      <p class="help-block text-danger mb-0"></p>
-		                                  </div>
-		                  </div>
-		                  <div class="col-12 col-md pl-md-2">
-		                    <div class="form-group">
-		                      <label for="email">Adres e-mail <span class="contact-form__required">*</span></label>
-		                                      <input class="form-control" id="email" type="email" placeholder="Adres e-mail" required="required" data-validation-required-message="Wpisz adres e-mail.">
-		                                      <p class="help-block text-danger mb-0"></p>
-		                                  </div>
-		                  </div>
-
-		  
-		                              <div class="col-12">
-		                                <div class="form-group form-group-textarea mb-md-0">
-
-		                                  <label for="message">Treść wiadomości <span class="contact-form__required">*</span></label>
-		                      <textarea name="message" id="message" placeholder="Treść wiadomości" required="required" data-validation-required-message="Wpisz wiadomość."></textarea>
-		                      <p class="help-block text-danger mb-0"></p>
-		                                      
-		                                  </div>
-		                    
-		                  </div>
-
-		                  <div class="col-12 col-xl-8 d-flex pt-1 options">
-
-		                      <div class="form-group form-group-textarea mb-0">
-		                        <div class="controls">
-		                          <label class="contact-form__checkbox-label">
-		                        <input type="checkbox" name="terms-and-conditions" required="required" data-validation-required-message="Musisz zaakceptować politykę prywatności.">
-		                        Wyrażam zgodę na przetwarzanie podanych przeze mnie danych osobowych przez ProtectWP w celu realizacji przesłanego przeze mnie zgłoszenia kontaktowego zgodnie z <a href="https://protectwp.pl/polityka-prywatnosci/" target="_blank">polityką prywatności</a>.
-		                      </label>
-		                        
-		                      <p class="help-block text-danger mb-0"></p>
-		                        </div>
-		                        
-		                      </div>
-
-		                    
-		                  </div>
-
-		                          <div class="col-12 col-xl-4 pt-1 text-right">
-		                              
-		                              <button class="btn ml-auto" id="sendMessageButton" type="submit">Wyślij wiadomość</button>
-		                          </div>
-
-		                          <div id="success"></div>
-
-		                      </form>
+		                <?php
+						echo do_shortcode( '[contact-form-7 id="215" title="Usuwanie wirusów"]' );
+						?>
 
 		              </div>
 		            </div>
