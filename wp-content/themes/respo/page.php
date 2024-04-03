@@ -31,25 +31,25 @@ get_header(); ?>
 	            <nav class="stellarnav navbar d-block p-0" id="stellarnav" aria-labelledby="primary-nav-label">
 	              <div id="primary-nav-label" hidden>Menu główne</div>
 	              <ul class="stellarnav__list d-lg-flex flex-wrap justify-content-end align-items-center" id="stellarnav__list">
-	                  <li>
-	                    <a href="https://protectwp.pl/#home" class="nav-link needsclick">Home</a>
-	                  </li>
-	                  <li>
-	                    <a href="https://protectwp.pl/#jak-dziala-ochrona" class="nav-link needsclick">Jak działa ochrona?</a>
-	                  </li>
-	                <li>
-	                  <a href="https://protectwp.pl/#cennik" class="nav-link needsclick">Cennik</a>
-	                </li>
-	                <li>
-	                  <a href="https://protectwp.pl/#o-firmie" class="nav-link needsclick">O firmie</a>
-	                </li>
-	                <li>
-	                  <a href="https://protectwp.pl/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
-	                </li>
-	                <li>
-	                  <a href="https://protectwp.pl/#kontakt" class="nav-link needsclick btn">Kontakt</a>
-	                </li>
-	              </ul>
+					<li>
+						<a href="<?php echo esc_url( home_url() ); ?>/#jak-dziala-ochrona" class="nav-link needsclick">Jak działa ochrona?</a>
+					</li>
+					<li>
+					<a href="<?php echo esc_url( home_url() ); ?>/#pakiety-ochrony" class="nav-link needsclick">Pakiety ochrony</a>
+					</li>
+					<li>
+					<a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="nav-link needsclick">O firmie</a>
+					</li>
+					<li>
+					<a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
+					</li>
+					<li>
+						<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="nav-link needsclick">Usuwanie wirusów</a>
+					</li>
+					<li>
+					<a href="<?php echo esc_url( home_url() ); ?>/#kontakt" class="nav-link needsclick btn">Kontakt</a>
+					</li>
+				</ul>
 	            </nav>
 	          </div>
 	        </div>
@@ -155,28 +155,31 @@ get_header(); ?>
 	<!-- footer -->
 	<footer class="footer">
 		<ul class="footer__ul d-flex flex-wrap justify-content-center col">
-			<li class="footer__li">
-	    		<a href="#home" class="footer__link needsclick">Home</a>
-	    	</li>
-	    	<li class="footer__li">
-	    		<a href="#jak-dziala-ochrona" class="footer__link needsclick">Jak działa ochrona?</a>
-	    	</li>
-			<li class="footer__li">
-				<a href="#cennik" class="footer__link needsclick">Cennik</a>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/#home" class="footer__link needsclick">Home</a>
 			</li>
 			<li class="footer__li">
-				<a href="#o-firmie" class="footer__link needsclick">O firmie</a>
+			<a href="<?php echo esc_url( home_url() ); ?>/#jak-dziala-ochrona" class="footer__link needsclick">Jak działa ochrona?</a>
 			</li>
-			<li class="footer__li">
-				<a href="#uslugi" class="footer__link needsclick">Usługi dodatkowe</a>
-			</li>
-			<li class="footer__li">
-				<a href="#kontakt" class="footer__link needsclick">Kontakt</a>
-			</li>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/#pakiety-ochrony" class="footer__link needsclick">Pakiety ochrony</a>
+		</li>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="footer__link needsclick">O firmie</a>
+		</li>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="footer__link needsclick">Usługi dodatkowe</a>
+		</li>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="footer__link needsclick">Usuwanie wirusów</a>
+		</li>
+		<li class="footer__li">
+			<a href="<?php echo esc_url( home_url() ); ?>/#kontakt" class="footer__link needsclick">Kontakt</a>
+		</li>
 		</ul>
 		<p class="footer__terms text-center">
-	      <a href="<?php echo esc_url( home_url() ); ?>/polityka-prywatnosci/" class="footer__term">Polityka prywatności</a> | <a href="<?php echo esc_url( home_url() ); ?>/regulamin/" class="footer__term">Regulamin</a>
-	    </p>
+		<a href="<?php echo esc_url( home_url() ); ?>/polityka-prywatnosci/" class="footer__term">Polityka prywatności</a> | <a href="<?php echo esc_url( home_url() ); ?>/regulamin/" class="footer__term">Regulamin</a>
+		</p>
 	</footer>
 
 <?php get_footer(); ?>

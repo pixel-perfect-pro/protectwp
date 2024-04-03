@@ -27,22 +27,22 @@ get_header(); ?>
 				<div id="primary-nav-label" hidden>Menu główne</div>
 				<ul class="stellarnav__list d-lg-flex flex-wrap justify-content-end align-items-center" id="stellarnav__list">
 					<li>
-						<a href="https://protectwp.pl/#home" class="nav-link needsclick">Home</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#jak-dziala-ochrona" class="nav-link needsclick">Jak działa ochrona?</a>
 					</li>
 					<li>
-						<a href="https://protectwp.pl/#jak-dziala-ochrona" class="nav-link needsclick">Jak działa ochrona?</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#pakiety-ochrony" class="nav-link needsclick">Pakiety ochrony</a>
 					</li>
 					<li>
-					<a href="https://protectwp.pl/#pakiety-ochrony" class="nav-link needsclick">Pakiety ochrony</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="nav-link needsclick">O firmie</a>
 					</li>
 					<li>
-					<a href="https://protectwp.pl/#o-firmie" class="nav-link needsclick">O firmie</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
 					</li>
 					<li>
-					<a href="https://protectwp.pl/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="nav-link needsclick">Usuwanie wirusów</a>
 					</li>
 					<li>
-					<a href="https://protectwp.pl/#kontakt" class="nav-link needsclick btn">Kontakt</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#kontakt" class="nav-link needsclick btn">Kontakt</a>
 					</li>
 				</ul>
 				</nav>
@@ -176,12 +176,12 @@ get_header(); ?>
 						</p>
 						</div>
 						<div class="col-12 col-lg-4 text-center order-md-first staggered-animation" data-os-animation="fadeIn" data-os-animation-delay="1.95s">
-						<div class="how-it-works__number how-it-works__number--5 position-absolute">06</div>
-						<div class="how-it-works__icon how-it-works__icon--5 position-relative mx-auto"></div>
+						<div class="how-it-works__number how-it-works__number--6 position-absolute">06</div>
+						<div class="how-it-works__icon how-it-works__icon--6 position-relative mx-auto"></div>
 						<h3 class="how-it-works__heading">
 							Stała opieka techniczna nad Twoją stroną
 						</h3>
-						<p class="how-it-works__text how-it-works__text--5 mx-auto">
+						<p class="how-it-works__text how-it-works__text--6 mx-auto">
 							Chcesz zapobiec podobnym problemom w przyszłości? Zadbamy, by Twoja strona działała bez zarzutu. Będziemy prowadzić monitoring antywirusowy, wprowadzać nowe zabezpieczenia przed atakami i regularnie raportować naszą pracę. 
 						</p>
 						</div>
@@ -197,23 +197,23 @@ get_header(); ?>
 				</header>
 				<div class="container">
 					<div class="row">
-						<ul class="how-we-remove-viruses__ul col os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.25s">
-							<li>
+						<ul class="how-we-remove-viruses__ul col">
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Przeprowadzamy dokładną analizę zagrożenia</b> <br>sprawdzamy logi na serwerze, pliki strony, spójność i poprawność baz danych oraz weryfikujemy kod Twojej strony pod kątem złośliwych skryptów.</span>
 							</li>
-							<li>
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Usuwamy złośliwe oprogramowanie</b> <br>po pozbyciu się wirusów dbamy też o wykreślenie Twojej strony z ewentualnych blacklist.</span>
 							</li>
-							<li>
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Zapobiegamy kolejnym infekcjom</b> <br>przeprowadzamy analizę hostingu, wtyczek i motywów oraz wdrażamy niezbędne zabezpieczenia chroniące przed powróceniem wirusów.</span>
 							</li>
-							<li>
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Wprowadzamy niezbędne aktualizacje</b> <br>W razie możliwości instalujemy wtyczki i motywy w najnowszej wersji, by strona była bezpieczna i maksymalnie sprawna.</span>
 							</li>
-							<li>
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Przygotowujemy szczegółowy raport</b> <br>w prosty, zrozumiały sposób podsumowujemy swoje działania i przedstawiamy Ci rekomendacje co do dalszych zabezpieczeń.</span>
 							</li>
-							<li>
+							<li class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 								<span><b class="color12">Zyskujesz w pełni działającą stronę</b> <br>pozostaje Ci już tylko skupić się na prowadzeniu swojego biznesu!.</span>
 							</li>
 						</ul>
@@ -223,8 +223,16 @@ get_header(); ?>
 			<section class="cta container">
 				<div class="row">
 					<div class="col text-center py-5">
-						<h3 class="text-center mb-5">Przestań tracić i zacznij zarabiać. Powierz nam przywrócenie Twojej strony do pełnej sprawności i czerp maksymalne korzyści ze swojego biznesu!</h3>
-						<a href="#kontakt" class="btn mx-auto mb-5 os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.2s" style="animation-delay: 0.2s;">Skontaktuj się z nami</a>
+						<h3 class="text-center mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Przestań tracić i zacznij zarabiać. Powierz nam przywrócenie Twojej strony do pełnej sprawności i czerp maksymalne korzyści ze swojego biznesu!</h3>
+						<div class="col">
+							<p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s">Cena usunięcia wirusa z Twojej strony WordPress lub sklepu WooCommerce zaczyna się już od <b class="color12">450 zł netto</b> lub od <b class="color12">700 zł netto</b> w przypadku usługi ekspresowej (do 24 godzin w dni robocze od akceptacji wyceny). Ostateczną cenę jesteśmy w stanie podać po wypełnieniu przez Ciebie poniższego formularza i wykonaniu przez nas bezpłatnej analizy, ponieważ cena jest zależna od kilku czynników:</p>
+							<ul class="mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
+								<li><strong>Rozmiaru i złożoności Twojej strony</strong> - im większa i bardziej złożona jest Twoja strona, a także im więcej wtyczek posiada, tym więcej możemy mieć pracy przy usunięciu wirusa</li>
+								<li><strong>Rodzaju wirusa</strong> - bardziej zaawansowane wirusy mogą ukrywać swój kod w wielu różnych miejscach, w tym również w bazie danych, co bezpośrednio wpływa na ilość naszej pracy</li>
+								<li><strong>Czasu wykonania usługi</strong> - standardowo na usunięcie wirusa potrzebujemy od 1 do 3 dni roboczych. Jeżeli jednak potrzebujesz usługi ekspresowej (do 24 godzin w dni robocze), to cena odwirusowania będzie wyższa</li>
+							</ul>
+						</div>
+						<a href="#kontakt" class="btn mx-auto mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" style="animation-delay: 0.2s;">Skontaktuj się z nami</a>
 					</div>
 				</div>
 			</section>
@@ -259,22 +267,25 @@ get_header(); ?>
 	<footer class="footer">
 		<ul class="footer__ul d-flex flex-wrap justify-content-center col">
 			<li class="footer__li">
-	    		<a href="#home" class="footer__link needsclick">Home</a>
+	    		<a href="<?php echo esc_url( home_url() ); ?>/#home" class="footer__link needsclick">Home</a>
 	    	</li>
 	    	<li class="footer__li">
-	    		<a href="#jak-dziala-ochrona" class="footer__link needsclick">Jak działa ochrona?</a>
+	    		<a href="<?php echo esc_url( home_url() ); ?>/#jak-dziala-ochrona" class="footer__link needsclick">Jak działa ochrona?</a>
 	    	</li>
 			<li class="footer__li">
-				<a href="#cennik" class="footer__link needsclick">Cennik</a>
+				<a href="<?php echo esc_url( home_url() ); ?>/#cennik" class="footer__link needsclick">Cennik</a>
 			</li>
 			<li class="footer__li">
-				<a href="#o-firmie" class="footer__link needsclick">O firmie</a>
+				<a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="footer__link needsclick">O firmie</a>
 			</li>
 			<li class="footer__li">
-				<a href="#uslugi" class="footer__link needsclick">Usługi dodatkowe</a>
+				<a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="footer__link needsclick">Usługi dodatkowe</a>
 			</li>
 			<li class="footer__li">
-				<a href="#kontakt" class="footer__link needsclick">Kontakt</a>
+				<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="footer__link needsclick">Usuwanie wirusów</a>
+			</li>
+			<li class="footer__li">
+				<a href="<?php echo esc_url( home_url() ); ?>/#kontakt" class="footer__link needsclick">Kontakt</a>
 			</li>
 		</ul>
 		<p class="footer__terms text-center">

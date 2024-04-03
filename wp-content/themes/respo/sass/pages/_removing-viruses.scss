@@ -28,6 +28,38 @@
         line-height: 1.4;
     }
 
+    .how-it-works--viruses .how-it-works__icon {
+        &--1 {
+            background-image: url('../img/szybka-naprawa-icon.png');
+            background-size: 55%;
+        }
+
+        &--2 {
+            background-image: url('../img/skutecznosc-icon.png');
+            background-size: 53.5%;
+        }
+
+        &--3 {
+            background-image: url('../img/wspolpraca-icon.png');
+            background-size: 60%;
+        }
+
+        &--4 {
+            background-image: url('../img/backup-icon.png');
+            background-size: 55%;
+        }
+
+        &--5 {
+            background-image: url('../img/gwarancja-icon.png');
+            background-size: 55%;
+        }
+
+        &--6 {
+            background-image: url('../img/opieka-icon.png');
+            background-size: 53.5%;
+        }
+    }
+
     .how-we-remove-viruses {
         @extend .pricing;
         background-size: cover;
@@ -72,6 +104,16 @@
     }
 
     .cta {
+        p,
+        ul {
+            font: {
+                size: 1.125rem;
+            }
+
+            max-width: 960px;
+            margin-inline: auto;
+        }
+
         .btn {
             display: block;
             margin-inline: auto;
