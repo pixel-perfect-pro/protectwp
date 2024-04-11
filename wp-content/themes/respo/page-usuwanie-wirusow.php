@@ -225,11 +225,11 @@ get_header(); ?>
 					<div class="col text-center py-5">
 						<h3 class="text-center mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Przestań tracić i zacznij zarabiać. Powierz nam przywrócenie Twojej strony do pełnej sprawności i czerp maksymalne korzyści ze swojego biznesu!</h3>
 						<div class="col">
-							<p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s">Cena usunięcia wirusa z Twojej strony WordPress lub sklepu WooCommerce zaczyna się już od <b class="color12">450 zł netto</b> lub od <b class="color12">700 zł netto</b> w przypadku usługi ekspresowej (do 24 godzin w dni robocze od akceptacji wyceny). Ostateczną cenę jesteśmy w stanie podać po wypełnieniu przez Ciebie poniższego formularza i wykonaniu przez nas bezpłatnej analizy, ponieważ cena jest zależna od kilku czynników:</p>
-							<ul class="mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
+							<p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Cena usunięcia wirusa z Twojej strony WordPress lub sklepu WooCommerce zaczyna się już od <b class="color12">450 zł netto</b> lub od <b class="color12">700 zł netto</b> w przypadku usługi ekspresowej (do 24 godzin w dni robocze od akceptacji wyceny). Ostateczną cenę jesteśmy w stanie podać po wypełnieniu przez Ciebie poniższego formularza i wykonaniu przez nas bezpłatnej analizy, ponieważ cena jest zależna od kilku czynników:</p>
+							<ul class="mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
 								<li><strong>Rozmiaru i złożoności Twojej strony</strong> - im większa i bardziej złożona jest Twoja strona, a także im więcej wtyczek posiada, tym więcej możemy mieć pracy przy usunięciu wirusa</li>
 								<li><strong>Rodzaju wirusa</strong> - bardziej zaawansowane wirusy mogą ukrywać swój kod w wielu różnych miejscach, w tym również w bazie danych, co bezpośrednio wpływa na ilość naszej pracy</li>
-								<li><strong>Czasu wykonania usługi</strong> - standardowo na usunięcie wirusa potrzebujemy od 1 do 3 dni roboczych. Jeżeli jednak potrzebujesz usługi ekspresowej (do 24 godzin w dni robocze), to cena odwirusowania będzie wyższa</li>
+								<li><strong>Czasu wykonania usługi</strong> - standardowo na usunięcie wirusa potrzebujemy od 2 do 3 dni roboczych. Jeżeli jednak potrzebujesz usługi ekspresowej (do 24 godzin w dni robocze), to cena odwirusowania będzie wyższa</li>
 							</ul>
 						</div>
 						<a href="#kontakt" class="btn mx-auto mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" style="animation-delay: 0.2s;">Skontaktuj się z nami</a>
