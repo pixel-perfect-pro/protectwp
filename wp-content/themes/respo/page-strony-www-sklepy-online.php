@@ -69,7 +69,7 @@ get_header(); ?>
 					<div class="col-12 text-center py-5">
 						<h2 class="text-center my-4 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Zobacz niektóre z naszych realizacji:</h2>
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.45s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://solace.pl/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/solace.jpg" alt="Solace" class="services__portfolio-thumbnail">
@@ -79,7 +79,7 @@ get_header(); ?>
 							</a>
 						</div>	
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.45s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://www.berdax.pl/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/berdax.jpg" alt="Berdax" class="services__portfolio-thumbnail">
@@ -89,7 +89,7 @@ get_header(); ?>
 							</a>
 						</div>	
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.45s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://rena-pol.pl/automaty-vendingowe-bhp/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/renapol.jpg" alt="Rena-Pol" class="services__portfolio-thumbnail">
