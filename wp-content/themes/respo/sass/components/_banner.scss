@@ -11,88 +11,92 @@ $banner__text: $text--light;
 // -----------------------------//
 
 .banner {
-	background-color: $banner__bgc;
-	@include background-cover('../img/banner-bg.jpg');
-	height: auto;
-	min-height: 400px;
+    background-color: $banner__bgc;
+    @include background-cover('../img/banner-bg.jpg');
+    height: auto;
+    min-height: 400px;
 
-	@include md {
-		height: 50vh;
-	}
+    @include md {
+        height: 50vh;
+    }
 
-	@include lg {
-		min-height: 500px;
-	}
+    @include lg {
+        min-height: 500px;
+    }
 
-	@include xl {
-		min-height: 600px;
-		height: 82.5vh;
-	}
+    @include xl {
+        min-height: 600px;
+        height: 82.5vh;
+    }
 
-	@include xxl {
-		min-height: 650px;
-	}
+    @include xxl {
+        min-height: 650px;
+    }
 
-	@include xxxl {
-		min-height: 776px;
-	}
+    @include xxxl {
+        min-height: 776px;
+    }
 
-	&__heading {
-		font: {
-			family: "Red Hat Display", sans-serif;
-			size: 10vw;
-			weight: 400;
-		}
-		color: $banner__heading;
-		line-height: 1.13;
-		margin-top: 10rem;
-		margin-bottom: 1.12rem;
+    &.banner--www {
+        height: 63.5vh;
+    }
 
-		@include md {
-			margin-top: 4rem;
-			font: {
-				size: 3rem;
-			}
-		}
+    &__heading {
+        font: {
+            family: 'Red Hat Display', sans-serif;
+            size: 10vw;
+            weight: 400;
+        }
+        color: $banner__heading;
+        line-height: 1.13;
+        margin-top: 10rem;
+        margin-bottom: 1.12rem;
 
-		@include lg {
-			font: {
-				size: 3.5rem;
-			}
-		}
+        @include md {
+            margin-top: 4rem;
+            font: {
+                size: 3rem;
+            }
+        }
 
-		@include xl {
-			font: {
-				size: 4rem;
-			}
-		}
-	}
+        @include lg {
+            font: {
+                size: 3.5rem;
+            }
+        }
 
-	&__img {
-		max-width: 90%;
-		margin: 15% 5% -20% 5%;
-		height: auto;
-		
-		@include md {
-			max-width: 100%;
-			margin: 0;
-			position: absolute;
-			top: 60%;
-			left: 0;
-			transform: translateY(-32.5%);
-		}
+        @include xl {
+            font: {
+                size: 4rem;
+            }
+        }
+    }
 
-		@include xxxl {
-			max-width: none;
-		}
-	}
+    &__img {
+        max-width: 90%;
+        margin: 15% 5% -20% 5%;
+        height: auto;
 
-	&__text {
-		font: {
-			size: 1.25rem;
-			weight: 400;
-		}
-		color: $banner__text;
-		margin-bottom: 1.7rem;
-	}
+        @include md {
+            max-width: 100%;
+            margin: 0;
+            position: absolute;
+            top: 60%;
+            left: 0;
+            transform: translateY(-32.5%);
+        }
+
+        @include xxxl {
+            max-width: none;
+        }
+    }
+
+    &__text {
+        font: {
+            size: 1.25rem;
+            weight: 400;
+        }
+        color: $banner__text;
+        margin-bottom: 1.7rem;
+    }
 }
