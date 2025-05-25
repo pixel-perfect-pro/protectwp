@@ -36,7 +36,7 @@ get_header(); ?>
 						<a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="nav-link needsclick">O firmie</a>
 					</li>
 					<li>
-						<a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
+						<a href="<?php echo esc_url( home_url() ); ?>/#strony-www" class="nav-link needsclick">Strony www / sklepy online</a>
 					</li>
 					<li>
 						<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="nav-link needsclick">Usuwanie wirusów</a>
@@ -245,7 +245,15 @@ get_header(); ?>
 		                  <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.svg" alt="Logo ProtectWP" class="contact__logo">
 		                  <p><img src="<?php bloginfo('stylesheet_directory'); ?>/img/phone-icon.png" alt="" class="mr-3 mr-md-1 mr-lg-3"> <a href="tel:+48537821192">+48 537 821 192</a></p>
 		                  <p><img src="<?php bloginfo('stylesheet_directory'); ?>/img/email-icon.png" alt="" class="mr-3 mr-md-1 mr-lg-3"> <a href="mailto:kontakt@protectwp.pl">kontakt@protectwp.pl</a></p>
-		                </div>
+						  <br>
+						<p class="contact__company-data"><b>Dane firmowe:</b><br>
+							Pixel Perfect Paweł Lewczuk<br>
+							ul. Słoneczna 39A<br>
+							05-180 Pomiechówek<br>
+							NIP: 531-161-01-63<br>
+							REGON: 361584010
+						</p>
+						</div>
 		              </div>
 		              <div class="col-12 col-md-8 p-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
 		                <h2 class="contact__heading">Skontaktuj się</h2>

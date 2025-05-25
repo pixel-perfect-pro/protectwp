@@ -6,117 +6,121 @@ $contact__wrapper__bgc: $white;
 $contact__address__bgc: $color3;
 $contact__address__link: $text--light;
 $contact__address__link--hover: $color4;
-$contact-form__required: #E8421C;
+$contact-form__required: #e8421c;
 
 // -----------------------------//
 //            STYLES            //
 // -----------------------------//
 
 .contact {
-	
-	//background-position: center top;
-	padding-bottom: 5rem;
+    //background-position: center top;
+    padding-bottom: 5rem;
 
-	.container-fluid {
-		max-width: 1170px;
-	}
+    .container-fluid {
+        max-width: 1170px;
+    }
 
-	&__wrapper {
-		background-color: $contact__wrapper__bgc;
-		border-radius: 1rem;
-		overflow: hidden;
-		box-shadow: 0px 17px 30px 0px rgba(3, 77, 111, 0.13);
-	}
+    &__wrapper {
+        background-color: $contact__wrapper__bgc;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0px 17px 30px 0px rgba(3, 77, 111, 0.13);
+    }
 
-	&__address {
-		background-color: $contact__address__bgc;
-		padding: 3.25rem 3.8rem;
-		
-		@include md {
-			@include background-cover('../img/contact-address-bg.png');
-			padding: 3.25rem 2rem 3.25rem 3rem;
-		}
+    &__address {
+        background-color: $contact__address__bgc;
+        padding: 3.25rem 3.8rem;
 
-		@include lg {
-			padding: 3.25rem 3.8rem;
-		}
+        @include md {
+            @include background-cover('../img/contact-address-bg.png');
+            padding: 3.25rem 2rem 3.25rem 3rem;
+        }
 
-		p {
-			font: {
-				family: "Open Sans", sans-serif;
-				size: 1.125rem;
-			}
-			margin-bottom: 0.45rem;
+        @include lg {
+            padding: 3.25rem 3.8rem;
+        }
 
-			@include md {
-				font: {
-					size: 1rem;
-				}
-			}
+        p {
+            font: {
+                family: 'Open Sans', sans-serif;
+                size: 1.125rem;
+            }
+            margin-bottom: 0.45rem;
 
-			@include lg {
-				font: {
-					size: 1.125rem;
-				}
-			}
-		}
+            @include md {
+                font: {
+                    size: 1rem;
+                }
+            }
 
-		a {
-			color: $contact__address__link;
-			text-decoration: none;
+            @include lg {
+                font: {
+                    size: 1.125rem;
+                }
+            }
+        }
 
-			&:hover {
-				color: $contact__address__link--hover;
-			}
-		}
-	}
+        a {
+            color: $contact__address__link;
+            text-decoration: none;
 
-	&__logo {
-		width: 100%;
-		max-width: 209px;
-		margin-bottom: 2.5rem;
-	}
+            &:hover {
+                color: $contact__address__link--hover;
+            }
+        }
+    }
 
-	&__heading {
-		@include h3;
-		margin-top: 0.55rem;
-	}
+    &__logo {
+        width: 100%;
+        max-width: 209px;
+        margin-bottom: 2.5rem;
+    }
 
-	&-form {
-		padding: 1.4rem 0 0.45rem 0;
+    &__heading {
+        @include h3;
+        margin-top: 0.55rem;
+    }
 
-		&__required {
-			color: $contact-form__required;
-		}
+    p.contact__company-data {
+        color: #ffffff;
+        font-size: 14px;
+    }
 
-		&__checkbox-label,
-		.wpcf7-list-item-label {
-			position: relative;
-			padding-top: 1px;
-			padding-left: 1.9rem;
-			font: {
-				family: "Open Sans", sans-serif;
-				size: 12px;
-				weight: 400;
-			}
-			text-transform: none;
-		}
+    &-form {
+        padding: 1.4rem 0 0.45rem 0;
 
-		.wpcf7-list-item label {
-			display: flex;
-		}
+        &__required {
+            color: $contact-form__required;
+        }
 
-		.wpcf7-list-item-label {
-			padding-left: 0.75rem;
-			line-height: 1.5;
-		}
+        &__checkbox-label,
+        .wpcf7-list-item-label {
+            position: relative;
+            padding-top: 1px;
+            padding-left: 1.9rem;
+            font: {
+                family: 'Open Sans', sans-serif;
+                size: 12px;
+                weight: 400;
+            }
+            text-transform: none;
+        }
 
-		ul[role=alert] {
-			font: {
-				size: 15px;
-			}
-			list-style-type: none;
-			margin-top: 0;
-		}
-	}
+        .wpcf7-list-item label {
+            display: flex;
+        }
+
+        .wpcf7-list-item-label {
+            padding-left: 0.75rem;
+            line-height: 1.5;
+        }
+
+        ul[role='alert'] {
+            font: {
+                size: 15px;
+            }
+            list-style-type: none;
+            margin-top: 0;
+        }
+    }
 }

@@ -26,7 +26,7 @@
                   <a href="<?php echo esc_url( home_url() ); ?>/#o-firmie" class="nav-link needsclick">O firmie</a>
                 </li>
                 <li>
-                  <a href="<?php echo esc_url( home_url() ); ?>/#uslugi" class="nav-link needsclick">Usługi dodatkowe</a>
+                  <a href="<?php echo esc_url( home_url() ); ?>/#strony-www" class="nav-link needsclick">Strony www / sklepy online</a>
                 </li>
 				<li>
 					<a href="<?php echo esc_url( home_url() ); ?>/usuwanie-wirusow/" class="nav-link needsclick">Usuwanie wirusów</a>
@@ -807,26 +807,17 @@
             </div>
             <div class="col-12 col-md-8">
               <article class="services__service services-service os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
-                <div class="services-service__icon services-service__icon--1 position-relative mr-auto">
+                <div class="services-service__icon services-service__icon--1 position-relative mr-auto" id="strony-www">
                 </div>
-                <h3 class="services-service__heading">Optymalizacje stron www</h3>
+                <h3 class="services-service__heading">Strony www / sklepy online</h3>
                 <div class="services-service__columns">
-                  <p>Lekkie, czytelne i&nbsp;szybkie witryny są zdecydowanie lepiej oceniane przez wyszukiwarkę Google. Szybkość ładowania witryny internetowej ma bezpośredni wpływ na&nbsp;pozycję w&nbsp;wynikach wyszukiwania, co sprawia, że klienci łatwiej odnajdą Twoją firmę&nbsp;w&nbsp;Internecie. Dzięki prawidłowej optymalizacji serwisu www, klienci będą mieli możliwość szybszego odnalezienia produktu lub&nbsp; usługi której poszukują.</p>
-                  <p>Optymalizacja serwisów www pod kątem szybkości wczytywania w przeglądarkach internetowych.</p>
-                  <div>
-                    <ul class="services-service__ul">
-                      <li>Optymalizacja grafiki</li>
-                      <li>Minifikacja CSS i&nbsp;Javascript</li>
-                      <li>Zasoby blokujące renderowanie</li>
-                      <li>Pamięć podręczna</li>
-                      <li>Lazy Loading</li>
-                      <li>Kompresja Gzip</li>
-                      <li>Dobór odpowiedniego hostingu (serwera)</li>
-                    </ul>
-                  </div>
+                  <p>Specjalizujemy się w tworzeniu nowoczesnych stron i sklepów internetowych. Projektujemy witryny, które są estetyczne, funkcjonalne i&nbsp;przyjazne dla użytkownika.</p>
+                  <p>Wykorzystujemy najnowsze rozwiązanie oparte na WordPress i edytorze blokowym Gutenberg, tj. Full Site Editing. Dzięki temu możesz samodzielnie edytować każdy element swojej strony w prosty i intuicyjny sposób.</p>
+                  <p>Sklepy online który tworzymy są zoptymalizowane pod kątem szybkiego ładowania i wygody zakupów dla użytkownika. Nasze rozwiązania są skalowalne i rosną razem z Twoim biznesem.</p> 
+				  <p>Każda strona powstaje według indywidualnych potrzeb i wymagań klienta. Stawiamy na czytelność, przejrzystość i atrakcyjny design. Współpraca z nami to gwarancja jakości i terminowości.</p> 
                 </div>
                 <h4 class="services-service__subheading">Co zyskujesz?</h4>
-                <div class="row">
+                <div class="row mb-5">
                   <div class="col-6 col-lg-3">
                     <div class="services-service__icon-wrapper">
                       <img src="<?php bloginfo('stylesheet_directory'); ?>/img/services-service-arrow.svg" alt="" class="services-service__icon-svg">
@@ -854,9 +845,42 @@
                 </div>
               </article>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mb-5 pb-5">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/img/uslugi-dodatkowe.png" alt="Usługi dodatkowe" class="services__img os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
             </div>
+			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+				<div class="services__portfolio-thumbnail">
+					<a href="https://solace.pl/" target="_blank">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/solace.jpg" alt="Solace" class="services__portfolio-thumbnail">
+						<div class="services__portfolio-thumbnail-overlay">
+							<img width="50" height="50" src="<?php bloginfo('stylesheet_directory'); ?>/img/magnifying-glass.svg" alt="" class="services__portfolio-thumbnail-icon">
+						</div>
+					</a>
+				</div>	
+			</div>
+			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+				<div class="services__portfolio-thumbnail">
+					<a href="https://www.berdax.pl/" target="_blank">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/berdax.jpg" alt="Berdax" class="services__portfolio-thumbnail">
+						<div class="services__portfolio-thumbnail-overlay">
+							<img width="50" height="50" src="<?php bloginfo('stylesheet_directory'); ?>/img/magnifying-glass.svg" alt="" class="services__portfolio-thumbnail-icon">
+						</div>
+					</a>
+				</div>	
+			</div>
+			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+				<div class="services__portfolio-thumbnail">
+					<a href="https://rena-pol.pl/automaty-vendingowe-bhp/" target="_blank">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/renapol.jpg" alt="Rena-Pol" class="services__portfolio-thumbnail">
+						<div class="services__portfolio-thumbnail-overlay">
+							<img width="50" height="50" src="<?php bloginfo('stylesheet_directory'); ?>/img/magnifying-glass.svg" alt="" class="services__portfolio-thumbnail-icon">
+						</div>
+					</a>
+				</div>	
+			</div>
+			<div class="col-12 text-center">
+				<a href="<?php echo esc_url( home_url() ); ?>/strony-www-sklepy-online/" class="btn mt-5">Zobacz nasze realizacje</a>
+			</div>
             <div class="col-12">
               <div class="services__separator w-100 os-animation" data-os-animation="fadeIn"></div>
             </div>
@@ -903,7 +927,15 @@
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.svg" alt="Logo ProtectWP" class="contact__logo">
                   <p><img src="<?php bloginfo('stylesheet_directory'); ?>/img/phone-icon.png" alt="" class="mr-3 mr-md-1 mr-lg-3"> <a href="tel:+48537821192">+48 537 821 192</a></p>
                   <p><img src="<?php bloginfo('stylesheet_directory'); ?>/img/email-icon.png" alt="" class="mr-3 mr-md-1 mr-lg-3"> <a href="mailto:kontakt@protectwp.pl">kontakt@protectwp.pl</a></p>
-                </div>
+				  <br>
+				  <p class="contact__company-data"><b>Dane firmowe:</b><br>
+				  	Pixel Perfect Paweł Lewczuk<br>
+					ul. Słoneczna 39A<br>
+					05-180 Pomiechówek<br>
+					NIP: 531-161-01-63<br>
+					REGON: 361584010
+				  </p>
+				</div>
               </div>
               <div class="col-12 col-md-8 p-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
                 <h2 class="contact__heading">Skontaktuj się</h2>
