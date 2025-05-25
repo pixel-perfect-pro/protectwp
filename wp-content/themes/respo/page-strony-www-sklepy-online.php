@@ -99,7 +99,7 @@ get_header(); ?>
 							</a>
 						</div>	
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://slowinski.com.pl/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/slowinski.jpg" alt="Dachy Słowiński" class="services__portfolio-thumbnail">
@@ -109,7 +109,7 @@ get_header(); ?>
 							</a>
 						</div>	
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://stropypro.pl/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/stropy-pro.jpg" alt="Stropy PRO" class="services__portfolio-thumbnail">
@@ -119,7 +119,7 @@ get_header(); ?>
 							</a>
 						</div>	
 					</div>
-					<div class="col-12 col-md-6 col-xl-4 mb-5">		
+					<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">		
 						<div class="services__portfolio-thumbnail">
 							<a href="https://dohmann.pl/" target="_blank">
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/img/dohmann.jpg" alt="Dohmann" class="services__portfolio-thumbnail">

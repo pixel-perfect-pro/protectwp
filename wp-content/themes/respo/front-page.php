@@ -848,7 +848,7 @@
             <div class="col-12 col-md-4 mb-5 pb-5">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/img/uslugi-dodatkowe.png" alt="Usługi dodatkowe" class="services__img os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
             </div>
-			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+			<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">		
 				<div class="services__portfolio-thumbnail">
 					<a href="https://solace.pl/" target="_blank">
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/solace.jpg" alt="Solace" class="services__portfolio-thumbnail">
@@ -858,7 +858,7 @@
 					</a>
 				</div>	
 			</div>
-			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+			<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">		
 				<div class="services__portfolio-thumbnail">
 					<a href="https://www.berdax.pl/" target="_blank">
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/berdax.jpg" alt="Berdax" class="services__portfolio-thumbnail">
@@ -868,7 +868,7 @@
 					</a>
 				</div>	
 			</div>
-			<div class="col-12 col-md-6 col-xl-4 mb-5">		
+			<div class="col-12 col-md-6 col-xl-4 mb-5 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">		
 				<div class="services__portfolio-thumbnail">
 					<a href="https://rena-pol.pl/automaty-vendingowe-bhp/" target="_blank">
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/renapol.jpg" alt="Rena-Pol" class="services__portfolio-thumbnail">
@@ -878,7 +878,7 @@
 					</a>
 				</div>	
 			</div>
-			<div class="col-12 text-center">
+			<div class="col-12 text-center os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
 				<a href="<?php echo esc_url( home_url() ); ?>/strony-www-sklepy-online/" class="btn mt-5">Zobacz nasze realizacje</a>
 			</div>
             <div class="col-12">
