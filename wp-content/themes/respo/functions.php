@@ -128,8 +128,6 @@ wp_enqueue_script('bootmin-scripts','https://stackpath.bootstrapcdn.com/bootstra
 
 wp_enqueue_script('fast-scripts','https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js','','',true);
 
-wp_enqueue_script('classlist-scripts','https://cdn.polyfill.io/v2/polyfill.js?features=Element.prototype.classList','','',true);
-
 wp_enqueue_script('fvisible-scripts','https://unpkg.com/focus-visible','','',true);
 
 wp_enqueue_script('icheck-scripts','https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js','','',true);
